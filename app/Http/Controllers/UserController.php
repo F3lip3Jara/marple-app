@@ -18,7 +18,7 @@ class UserController extends Controller
         $password = $data['password'];
         $remember = $data['remember'];
 
-        if (Auth::attempt(['email' => $email, 'password' => $password], $remember))
+        if (Auth::attempt(['name' => $email, 'password' => $password], $remember))
         {
             $token = Str::random(60);
             $user  = Auth::user();
