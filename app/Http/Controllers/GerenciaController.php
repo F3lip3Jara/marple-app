@@ -2,28 +2,27 @@
 
 namespace App\Http\Controllers;
 
-
-use App\Models\Roles;
+use App\Models\Empleado;
+use App\Models\Gerencia;
 use App\Models\User;
 use Illuminate\Http\Request;
 
-class RolesController extends Controller
+class GerenciaController extends Controller
 {
     public function index( Request $request )
     {
         $id     = 0;
         $header = $request->header('access-token');
         $val    = User::select('token' , 'id', 'activado')->where('token' , $header)->get();
-
         if($header == ''){
             return response()->json('error' , 203);
         }else{
-
             foreach($val as $item){
                 $id = $item->id;
             }
+
             if($id > 0 ){
-                return Roles:: all();
+                return Gerencia:: all();
             }else {
                 return response()->json('error' , 203);
             }
@@ -40,17 +39,18 @@ class RolesController extends Controller
             return response()->json('error' , 203);
         }else{
 
-
             foreach($val as $item){
                 if($item->activado = 'A'){
                     $id = $item->id;
                 }
             }
+
             if($id > 0 ){
-                $affected = Roles::where('idRol' , $request->idRol)->update(['rolDes' => $request->rolDes]);
+                $affected = Gerencia::where('gerId' , $request->gerId)->update(['gerDes' => $request->gerDes]);
+
                 if($affected > 0){
                     $resources = array(
-                        array("error" => "0", 'mensaje' => "Rol actualizado manera correcta",
+                        array("error" => "0", 'mensaje' => "Gerencia actualizada manera correcta",
                         'type'=> 'success')
                         );
                     return response()->json($resources, 200);
@@ -63,7 +63,7 @@ class RolesController extends Controller
         }
     }
 
-    public function insRoles(Request $request)
+    public function insGerencia(Request $request)
     {
         $id     = 0;
         $header = $request->header('access-token');
@@ -73,6 +73,8 @@ class RolesController extends Controller
             return response()->json('error' , 203);
         }else{
 
+
+
             foreach($val as $item){
                 if($item->activado = 'A'){
                     $id = $item->id;
@@ -80,11 +82,14 @@ class RolesController extends Controller
             }
 
             if($id > 0 ){
-                $affected = Roles::create(['rolDes' => $request->rolDes]);
+                $affected = Gerencia::create([
+                    'gerDes' => $request->gerDes,
+                    'empId'  =>1
+                ]);
 
                 if( isset( $affected)){
                     $resources = array(
-                        array("error" => "0", 'mensaje' => "Rol ingresado manera correcta",
+                        array("error" => "0", 'mensaje' => "Gerencia ingresada manera correcta",
                         'type'=> 'success')
                         );
                     return response()->json($resources, 200);
@@ -99,73 +104,52 @@ class RolesController extends Controller
         }
     }
 
-    public function delRoles(Request $request)
+    public function delGerencia(Request $request)
     {
         $id     = 0;
         $header = $request->header('access-token');
         $val    = User::select('token' , 'id', 'activado')->where('token' , $header)->get();
-        $xid    = $request->idRol;
+        $xid    = $request->gerId;
 
-        if($header == ''){
-            return response()->json('error' , 203);
-        }else{
-            foreach($val as $item){
-                if($item->activado = 'A'){
-                    $id = $item->id;
-                }
-            }
-            if($id >0){
-                $valida = User::all()->where('idRol' , $xid)->take(1);
-                //si la variable es null o vacia elimino el rol
-                if(sizeof($valida) > 0 ){
-                    //en el caso que no se ecuentra vacia no puedo eliminar
-                    $resources = array(
-                        array("error" => "1", 'mensaje' => "El rol no se puede eliminar",
-                        'type'=> 'danger')
-                        );
-                    return response()->json($resources, 200);
-                }else{
-                    $affected = Roles:: where('idRol', $xid)->delete();
 
-                    if($affected > 0){
-                        $resources = array(
-                            array("error" => '0', 'mensaje' => "Rol Eliminado Correctamente" ,'type'=> 'warning')
-                            );
-                        return response()->json($resources, 200);
-                    }else{
-                        $resources = array(
-                        array("error" => "2", 'mensaje' => "No se encuentra registro" ,'type'=> 'warning')
-                        );
-                        return response()->json($resources, 200);
-                    }
-
-                }
-
-            }else{
-                    return response()->json('error' , 203);
-            }
-        }
-    }
-
-    public function filtroRoldes ( Request $request){
-        $id     = 0;
-        $header = $request->header('access-token');
-        $val    = User::select('token' , 'id', 'activado')->where('token' , $header)->get();
-        if($header == ''){
-            return response()->json('error' , 203);
-        }else{
 
         foreach($val as $item){
             if($item->activado = 'A'){
                 $id = $item->id;
             }
         }
-        if($id > 0 ){
-            return Roles::all('rolDes');
-        }else {
-            return response()->json('error' , 203);
+        if($id >0){
+            $valida = Empleado::all()->where('gerId' , $xid)->take(1);
+            //si la variable es null o vacia elimino el rol
+            if(sizeof($valida) > 0 ){
+                  //en el caso que no se ecuentra vacia no puedo eliminar
+                  $resources = array(
+                    array("error" => "1", 'mensaje' => "La gerencia  no se puede eliminar",
+                    'type'=> 'danger')
+                    );
+                   return response()->json($resources, 200);
+            }else{
+                $affected = Gerencia:: where('gerId', $xid)->delete();
+
+                if($affected > 0){
+                    $resources = array(
+                        array("error" => '0', 'mensaje' => "Gerencia Eliminada Correctamente" ,'type'=> 'warning')
+                        );
+                       return response()->json($resources, 200);
+                   }else{
+                      $resources = array(
+                       array("error" => "2", 'mensaje' => "No se encuentra registro" ,'type'=> 'warning')
+                       );
+                      return response()->json($resources, 200);
+                }
+
+            }
+
+        }else{
+                return response()->json('error' , 203);
         }
-     }
     }
+
+
 
 }

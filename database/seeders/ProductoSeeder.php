@@ -17,10 +17,13 @@ class ProductoSeeder extends Seeder
 
         $faker = \Faker\Factory::create();
 
-        for ($i = 0; $i < 1000; $i++) {
+        for ($i = 0; $i < 10000000; $i++) {
             Producto::create([
 
-                'prdDes' => $faker->ean13,
+                'prdDes'  => $faker->ean13,
+                'cantidad'=>$faker->randomDigit,
+                'marca'   => 1
+
             ]);
         }
 

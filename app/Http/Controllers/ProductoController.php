@@ -17,7 +17,7 @@ class ProductoController extends Controller
      */
     public function index( Request $request )
     {
-        $data   = request()->header();
+       /* $data   = request()->header();
         $id     = 0;
         $header = $request->header('access-token');
         $val    = User::all(['id' , 'token' ])->where('token', $header );
@@ -28,7 +28,9 @@ class ProductoController extends Controller
             return Producto:: all()->take(100);
         }else {
             return response()->json('error' , 203);
-        }
+        }*/
+        set_time_limit(0);
+        return Producto:: all()->take(1000000);
     }
 
     public function index1( Request $request )

@@ -14,11 +14,12 @@ class Empleados extends Migration
     public function up()
     {
         Schema::create('empleados', function (Blueprint $table) {
-            $table->bigIncrements('idEmp');
+            $table->bigIncrements('idEmplo');
             $table->bigInteger('id')->unsigned();
-            $table->string('empNom');
-            $table->string('empApe');
-            $table->string('empFecNac');
+            $table->string('emploNom');
+            $table->string('emploApe');
+            $table->string('emploFecNac')->nullable();
+            $table->longText('emploAvatar')->nullable();
             $table->foreign('id')->references('id')->on('users');
             $table->timestamps();
         });

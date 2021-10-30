@@ -5,29 +5,24 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class viewUser extends Model
+class viewTblUser extends Model
 {
     use HasFactory;
-
-    protected $table    ='usuarios';
+    protected $table    ='tblusuarios';
 
     protected $fillable = [
-        'token',
+        'id',
         'name',
         'email',
-        'emploAvatar',
-        'idRol',
         'rolDes',
         'emploNom',
         'emploApe',
         'emploFecNac',
-        'emplofecIng',
-        'gerId',
         'gerDes',
-        'reinicio',
         'activado',
-        'created_at',
-        'id'
+        'reinicio',
+        'created_at'
 
     ];
+
 }

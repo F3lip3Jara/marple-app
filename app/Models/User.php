@@ -24,7 +24,8 @@ class User extends Authenticatable
         'activado',
         'imgName',
         'token',
-        'id'
+        'id',
+        'reinicio'
     ];
 
     /**
@@ -46,5 +47,5 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    
+
 }

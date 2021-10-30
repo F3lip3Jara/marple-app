@@ -10,38 +10,51 @@ use Illuminate\Http\Request;
 class EtapasController extends Controller
 {
     public function index(Request $request){
-
         $id     = 0;
         $header = $request->header('access-token');
-        $val    = User::all(['id' , 'token' ])->where('token', $header );
-        foreach($val as $item){
-            $id = $item->id;
-        }
+        $val    = User::select('token' , 'id', 'activado')->where('token' , $header)->get();
+
+        if($header == ''){
+            return response()->json('error' , 203);
+        }else{
+
+            foreach($val as $item){
+                $id = $item->id;
+            }
         if($id > 0 ){
             return Etapa::all()->take(100);
         }else {
             return response()->json('error' , 203);
         }
-
+      }
     }
 
     public function insEtapas(Request $request)
     {
         $id     = 0;
         $header = $request->header('access-token');
-        $val    = User::all(['id' , 'token' ])->where('token', $header );
+        $val    = User::select('token' , 'id', 'activado')->where('token' , $header)->get();
 
-        foreach($val as $item){
-            if($item->activado = 'A'){
-                $id = $item->id;
+        if($header == ''){
+            return response()->json('error' , 203);
+        }else{
+
+            foreach($val as $item){
+                if($item->activado = 'A'){
+                    $id = $item->id;
+                }
             }
         }
-
         if($id > 0 ){
-            $affected = Etapa::create(['etaDes' => $request->rolDes]);
+            $affected = Etapa::create(['etaDes' => $request->etaDes]);
 
             if( isset( $affected)){
-                return response()->json('OK', 200);
+                $resources = array(
+                    array("error" => "0", 'mensaje' => "Rol ingresado manera correcta",
+                    'type'=> 'success')
+                    );
+                return response()->json($resources, 200);
+
             }else{
                 return response()->json('error' , 204);
             }
@@ -78,13 +91,17 @@ class EtapasController extends Controller
                 $affected = Etapa:: where('idEta', $xid)->delete();
 
                 if($affected > 0){
-                       return response()->json('OK', 200);
-                   }else{
-                      $resources = array(
-                       array("error" => "1", 'mensaje' => "No se encuentra registro" ,'type'=> 'warning')
-                       );
-                      return response()->json($resources, 200);
+                    $resources = array(
+                        array("error" => '0', 'mensaje' => "Rol Eliminado Correctamente" ,'type'=> 'warning')
+                        );
+                    return response()->json($resources, 200);
+                }else{
+                    $resources = array(
+                    array("error" => "2", 'mensaje' => "No se encuentra registro" ,'type'=> 'warning')
+                    );
+                    return response()->json($resources, 200);
                 }
+
             }
 
         }else{
@@ -95,19 +112,26 @@ class EtapasController extends Controller
     {
         $id     = 0;
         $header = $request->header('access-token');
-        $val    = User::all(['id' , 'token' ])->where('token', $header );
+        $val    = User::select('token' , 'id', 'activado')->where('token' , $header)->get();
 
-        foreach($val as $item){
-            if($item->activado = 'A'){
-                $id = $item->id;
+        if($header == ''){
+            return response()->json('error' , 203);
+        }else{
+            foreach($val as $item){
+                if($item->activado = 'A'){
+                    $id = $item->id;
+                }
             }
-        }
 
         if($id > 0 ){
-            $affected = Etapa::where('idEta' , $request->idRol)->update(['etaDes' => $request->etaDes]);
+            $affected = Etapa::where('idEta' , $request->idEta)->update(['etaDes' => $request->etaDes]);
 
             if($affected > 0){
-                return response()->json('OK', 200);
+                $resources = array(
+                    array("error" => "0", 'mensaje' => "Etapa actualizada manera correcta",
+                    'type'=> 'success')
+                    );
+                return response()->json($resources, 200);
             }else{
                 return response()->json('error', 204);
             }
@@ -115,6 +139,7 @@ class EtapasController extends Controller
                 return response()->json('error' , 203);
         }
     }
+}
 
 
 }
