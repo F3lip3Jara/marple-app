@@ -91,9 +91,6 @@ class ProveedorController extends Controller
         if($header == ''){
             return response()->json('error' , 203);
         }else{
-
-
-
             foreach($val as $item){
                 if($item->activado = 'A'){
                     $id = $item->id;
@@ -179,8 +176,6 @@ class ProveedorController extends Controller
                 return response()->json('error' , 203);
         }
     }
-
-
 
 public function valPrvRut(Request $request){
 
@@ -271,38 +266,7 @@ public function datPrv(Request $request ){
     }
 }
 
-public function indexFil( Request $request)
-{
-   /* $id     = 0;
-    $header = $request->header('access-token');
-    $val    = User::select('token' , 'id', 'activado')->where('token' , $header)->get();
-    $data   = $request->all();
 
-    if($header == ''){
-        return response()->json('error' , 203);
-    }else{
-        foreach($val as $item){
-            $id = $item->id;
-        }
-
-        if($id > 0 )
-        {
-         $datos = Region::select(['idReg' , 'regDes'])->where('idPai', $data['idPai'])->get();
-
-            foreach($datos as $item){
-                $resources = array(
-                    array('idReg'     => $item->idReg,
-                          'regDes'    => $item->regDes
-                        )
-                    );
-                }
-         return $datos;
-
-        }else{
-            return response()->json('error' , 203);
-        }
-    }*/
-}
 
 
 

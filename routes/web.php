@@ -96,6 +96,10 @@ Route::get('/', function () {
     Route::post('insPrvDes'      , 'App\Http\Controllers\ProveedorController@insPrvDes');
     Route::get('datPrv'          , 'App\Http\Controllers\ProveedorController@datPrv');
     Route::post('updProveedor'   , 'App\Http\Controllers\ProveedorController@update');
+
+
+
+    Route::get('trabPrvDir'      , 'App\Http\Controllers\PrvDirController@index');
     //Route::post('delCiudad'     , 'App\Http\Controllers\CiudadController@delCiudad');
 
     //Route::get('valCodCiudad'   , 'App\Http\Controllers\CiudadController@valCodCiudad');
