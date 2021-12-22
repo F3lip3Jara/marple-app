@@ -29,7 +29,7 @@ class EtapasController extends Controller
       }
     }
 
-    public function insEtapas(Request $request)
+    public function ins(Request $request)
     {
         $id     = 0;
         $header = $request->header('access-token');
@@ -64,7 +64,7 @@ class EtapasController extends Controller
         }
     }
 
-    public function delEtapas(Request $request)
+    public function del(Request $request)
     {
         $id     = 0;
         $header = $request->header('access-token');
@@ -83,7 +83,7 @@ class EtapasController extends Controller
             if(sizeof($valida) > 0 ){
                   //en el caso que no se ecuentra vacia no puedo eliminar
                   $resources = array(
-                    array("error" => "1", 'mensaje' => "El rol no se puede eliminar",
+                    array("error" => "1", 'mensaje' => "La etapa no se puede eliminar",
                     'type'=> 'danger')
                     );
                    return response()->json($resources, 200);
@@ -92,7 +92,7 @@ class EtapasController extends Controller
 
                 if($affected > 0){
                     $resources = array(
-                        array("error" => '0', 'mensaje' => "Rol Eliminado Correctamente" ,'type'=> 'warning')
+                        array("error" => '0', 'mensaje' => "Etapa Eliminada Correctamente" ,'type'=> 'warning')
                         );
                     return response()->json($resources, 200);
                 }else{

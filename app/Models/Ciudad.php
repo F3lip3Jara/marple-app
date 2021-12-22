@@ -14,7 +14,6 @@ class Ciudad extends Model
         'idPai',
         'empId',
         'idReg',
-        'idCom',
         'idCiu',
         'ciuDes',
         'ciuCod'

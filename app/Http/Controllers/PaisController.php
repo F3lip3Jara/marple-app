@@ -5,7 +5,10 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use App\Models\Pais;
+use App\Models\Proveedor ;
+use App\Models\PrvDirDes;
 use App\Models\Region;
+
 
 class PaisController extends Controller
 {
@@ -64,7 +67,7 @@ class PaisController extends Controller
         }
     }
 
-    public function insPais(Request $request)
+    public function ins(Request $request)
     {
         $id     = 0;
         $header = $request->header('access-token');
@@ -106,7 +109,7 @@ class PaisController extends Controller
         }
     }
 
-    public function delPais(Request $request)
+    public function del(Request $request)
     {
         $id     = 0;
         $header = $request->header('access-token');
@@ -126,24 +129,51 @@ class PaisController extends Controller
             if(sizeof($valida) > 0 ){
                   //en el caso que no se ecuentra vacia no puedo eliminar
                   $resources = array(
-                    array("error" => "1", 'mensaje' => "El País  no se puede eliminar",
+                    array("error" => "1", 'mensaje' => "El País  no se puede eliminar , asociado a Región",
                     'type'=> 'danger')
                     );
                    return response()->json($resources, 200);
             }else{
-                $affected = Pais:: where('idPai', $xid)->delete();
 
-                if($affected > 0){
-                    $resources = array(
-                        array("error" => '0', 'mensaje' => "País Eliminado Correctamente" ,'type'=> 'warning')
+               $valida = Proveedor::all()->where('idPai', $xid)->take(1);
+
+               if(sizeof($valida) > 0 ){
+
+                $resources = array(
+                    array("error" => "1", 'mensaje' => "El País  no se puede eliminar , asociado a Proveedor",
+                    'type'=> 'danger')
+                    );
+                    return response()->json($resources, 200);
+               }else{
+
+                $valida = PrvDirDes::all()->where('idPai', $xid)->take(1);
+
+                if(sizeof($valida) > 0 ){
+                    //en el caso que no se ecuentra vacia no puedo eliminar
+                   $resources = array(
+                      array("error" => "1", 'mensaje' => "La Comuna no se puede eliminar , asociado a Dirección",
+                      'type'=> 'danger')
+                      );
+                     return response()->json($resources, 200);
+                }else{
+                    $affected = Pais:: where('idPai', $xid)->delete();
+
+                    if($affected > 0){
+                        $resources = array(
+                            array("error" => '0', 'mensaje' => "País Eliminado Correctamente" ,'type'=> 'warning')
+                            );
+                        return response()->json($resources, 200);
+                    }else{
+                        $resources = array(
+                        array("error" => "2", 'mensaje' => "No se encuentra registro" ,'type'=> 'warning')
                         );
-                       return response()->json($resources, 200);
-                   }else{
-                      $resources = array(
-                       array("error" => "2", 'mensaje' => "No se encuentra registro" ,'type'=> 'warning')
-                       );
-                      return response()->json($resources, 200);
+                        return response()->json($resources, 200);
+                    }
                 }
+
+               }
+
+
 
             }
 

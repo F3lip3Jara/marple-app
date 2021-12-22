@@ -82,7 +82,7 @@ class ProveedorController extends Controller
         }
     }
 
-    public function insProveedor(Request $request)
+    public function ins(Request $request)
     {
         $id     = 0;
         $header = $request->header('access-token');
@@ -136,46 +136,6 @@ class ProveedorController extends Controller
         }
     }
 
-    public function insPrvDes(Request $request)
-    {
-        $id     = 0;
-        $header = $request->header('access-token');
-        $val    = User::select('token' , 'id', 'activado')->where('token' , $header)->get();
-        $xid    = $request->idReg;
-
-        foreach($val as $item){
-            if($item->activado = 'A'){
-                $id = $item->id;
-            }
-        }
-        if($id >0){
-
-            $affected = PrvDirDes::create([
-                'empId'    => 1,
-                'idPrv'    => $request->idPrv,
-                'prvdDir'  => $request->prvDir,
-                'prvdNum'  => $request->prvNum,
-                'idPai'    => $request->idPai,
-                'idReg'    => $request->idReg,
-                'idCom'    => $request->idCom,
-                'idCiu'    => $request->idCiu
-        ]);
-            if(isset( $affected)){
-                $resources = array(
-                    array("error" => '0', 'mensaje' => "Dirección agregada Correctamente" ,'type'=> 'success')
-                    );
-                return response()->json($resources, 200);
-            }else{
-                $resources = array(
-                array("error" => "2", 'mensaje' => "No se encuentra registro" ,'type'=> 'warning')
-                );
-                return response()->json($resources, 200);
-            }
-
-        }else{
-                return response()->json('error' , 203);
-        }
-    }
 
 public function valPrvRut(Request $request){
 
@@ -241,33 +201,53 @@ public function valPrvRut(Request $request){
 }
 
 
-public function datPrv(Request $request ){
-    $id     = 0;
-    $header = $request->header('access-token');
-    $val    = User::select('token' , 'id', 'activado')->where('token' , $header)->get();
-    $data   = $request->all();
+    public function datPrv(Request $request ){
+        $id     = 0;
+        $header = $request->header('access-token');
+        $val    = User::select('token' , 'id', 'activado')->where('token' , $header)->get();
+        $data   = $request->all();
 
-    if($header == ''){
-        return response()->json('error' , 203);
-    }else{
-         $datos = Proveedor::select(['idPai' , 'idReg' , 'idCom' , 'idCiu' , 'prvAct'])->where('idPrv', $data['idPrv'])->get();
+        if($header == ''){
+            return response()->json('error' , 203);
+        }else{
+            $datos = Proveedor::select(['idPai' , 'idReg' , 'idCom' , 'idCiu' , 'prvAct'])->where('idPrv', $data['idPrv'])->get();
 
-            foreach($datos as $item){
-                $resources = array(
-                    array('idPai'     => $item->idPai,
-                          'idReg'     => $item->idReg,
-                          'idCom'     => $item->idReg,
-                          'idCiu'     => $item->idCiu,
-                          'prvAct'    => $item->prvAct,
-                         )
-                    );
-                }
-         return $resources;
+                foreach($datos as $item){
+                    $resources = array(
+                        array('idPai'     => $item->idPai,
+                            'idReg'     => $item->idReg,
+                            'idCom'     => $item->idReg,
+                            'idCiu'     => $item->idCiu,
+                            'prvAct'    => $item->prvAct,
+                            )
+                        );
+                    }
+            return $resources;
+        }
     }
-}
 
+    public function selCliente( Request $request)
+    {
+        $id     = 0;
+        $header = $request->header('access-token');
+        $val    = User::select('token' , 'id', 'activado')->where('token' , $header)->get();
 
+        if($header == ''){
+            return response()->json('error' , 203);
+        }else{
+            foreach($val as $item){
+                $id = $item->id;
+            }
 
+            if($id > 0 )
+            {
+                return viewProveedores::all()->where('es_cliente', 'S');
+
+            }else{
+                return response()->json('error' , 203);
+            }
+        }
+    }
 
 
 

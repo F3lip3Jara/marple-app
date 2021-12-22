@@ -9,16 +9,40 @@ use Illuminate\Http\Request;
 
 class Etiquetas extends Controller
 {
+
+
+
     public function imprimir(){
-        $nombre = "PDFprinter";
-        $testStr = "Testing 123";
+
+        $nombre = "ZTPLT";
+        $testStr = 'N
+        A50,300,0,3,2,2,R,"Example6"
+        P1
+        ';
+
+
         try {
-            $connector = new WindowsPrintConnector($nombre);
+           /* $connector = new WindowsPrintConnector($nombre);
             $printer = new Printer($connector);
-            $printer -> qrCode($testStr);
+
+
+            $printer -> text($testStr);
             $printer -> feed();
             $printer -> cut();
             $printer -> close();
+
+            return "imprimiendo";*/
+
+                $file = fopen("C:\\texto.txt", "a");
+
+                fwrite($file, "N" . PHP_EOL);
+                fwrite($file, 'A50,300,0,3,2,2,R,"Example6"' . PHP_EOL);
+                fwrite($file, 'P1' . PHP_EOL);
+
+                fclose($file);
+
+
+
 
 
         } catch(Exception $e) {

@@ -63,7 +63,7 @@ class GerenciaController extends Controller
         }
     }
 
-    public function insGerencia(Request $request)
+    public function ins(Request $request)
     {
         $id     = 0;
         $header = $request->header('access-token');
@@ -104,7 +104,7 @@ class GerenciaController extends Controller
         }
     }
 
-    public function delGerencia(Request $request)
+    public function del(Request $request)
     {
         $id     = 0;
         $header = $request->header('access-token');

@@ -21,7 +21,6 @@ class Empresa extends Migration
             $table->string('empGiro');
             $table->string('empRut');
             $table->string('empFono');
-
             $table->timestamps();
         });
 

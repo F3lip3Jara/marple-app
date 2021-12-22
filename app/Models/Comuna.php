@@ -13,6 +13,7 @@ class Comuna extends Model
         'idPai',
         'empId',
         'idReg',
+        'idCiu',
         'idCom',
         'comDes',
         'comCod'

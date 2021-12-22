@@ -400,4 +400,32 @@ class UserController extends Controller
     }
 
      }
+
+
+     function getUsuarios(Request $request){
+        $header = $request->header('access-token');
+        $val    = User::select('token' , 'id', 'activado', 'reinicio')->where('token' , $header)->get();
+        $data   = request()->all();
+        $xid    = $request->idUser;
+
+        if($header == ''){
+            return response()->json('error' , 203);
+        }else{
+
+
+            foreach($val as $item){
+                if($item->activado == 'A'){
+                    $id = $item->id;
+                }
+            }
+
+
+       if($id > 0 ){
+            return User::select('idRol' , 'gerId')
+                        ->join('empleados', 'users.id', '=', 'empleados.id')
+                        ->where('users.id', $xid)->get();
+        }
+
+      }
+     }
 }

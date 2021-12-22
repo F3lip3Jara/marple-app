@@ -23,8 +23,6 @@ class Ciudad extends Migration
             $table->foreign('idPai')->references('idPai')->on('pais');
             $table->bigInteger('idReg')->unsigned();
             $table->foreign('idReg')->references('idReg')->on('region');
-            $table->bigInteger('idCom')->unsigned();
-            $table->foreign('idCom')->references('idCom')->on('comuna');
             $table->timestamps();
         });
     }

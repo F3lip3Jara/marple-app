@@ -63,7 +63,7 @@ class RolesController extends Controller
         }
     }
 
-    public function insRoles(Request $request)
+    public function ins(Request $request)
     {
         $id     = 0;
         $header = $request->header('access-token');
@@ -99,7 +99,7 @@ class RolesController extends Controller
         }
     }
 
-    public function delRoles(Request $request)
+    public function del(Request $request)
     {
         $id     = 0;
         $header = $request->header('access-token');
@@ -147,25 +147,6 @@ class RolesController extends Controller
         }
     }
 
-    public function filtroRoldes ( Request $request){
-        $id     = 0;
-        $header = $request->header('access-token');
-        $val    = User::select('token' , 'id', 'activado')->where('token' , $header)->get();
-        if($header == ''){
-            return response()->json('error' , 203);
-        }else{
 
-        foreach($val as $item){
-            if($item->activado = 'A'){
-                $id = $item->id;
-            }
-        }
-        if($id > 0 ){
-            return Roles::all('rolDes');
-        }else {
-            return response()->json('error' , 203);
-        }
-     }
-    }
 
 }

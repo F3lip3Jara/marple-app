@@ -14,8 +14,6 @@ class VerifyCsrfToken extends Middleware
     protected $except = [
         'http://127.0.0.1:8000/productos',
         'http://127.0.0.1:8000/log',
-        'http://127.0.0.1:8000/filter',
-        'http://127.0.0.1:8000/updProducto',
         'http://127.0.0.1:8000/updRoles',
         'http://127.0.0.1:8000/insRoles',
         'http://127.0.0.1:8000/delRoles',
@@ -45,7 +43,30 @@ class VerifyCsrfToken extends Middleware
         'http://127.0.0.1:8000/updCiudad',
         'http://127.0.0.1:8000/insProveedor',
         'http://127.0.0.1:8000/insPrvDes',
-        'http://127.0.0.1:8000/updProveedor'
+        'http://127.0.0.1:8000/updProveedor',
+        'http://127.0.0.1:8000/delPrvDir',
+        'http://127.0.0.1:8000/insMoneda',
+        'http://127.0.0.1:8000/updMoneda',
+        'http://127.0.0.1:8000/delMoneda',
+        'http://127.0.0.1:8000/insColor',
+        'http://127.0.0.1:8000/updColor',
+        'http://127.0.0.1:8000/delColor',
+        'http://127.0.0.1:8000/insUnidad',
+        'http://127.0.0.1:8000/updUnidad',
+        'http://127.0.0.1:8000/delUnidad',
+        'http://127.0.0.1:8000/insGrupo',
+        'http://127.0.0.1:8000/updGrupo',
+        'http://127.0.0.1:8000/delGrupo',
+        'http://127.0.0.1:8000/insSubGrupo',
+        'http://127.0.0.1:8000/updSubGrupo',
+        'http://127.0.0.1:8000/delSubGrupo',
+        'http://127.0.0.1:8000/insProducto',
+        'http://127.0.0.1:8000/updProducto',
+        'http://127.0.0.1:8000/insOrd',
+        'http://127.0.0.1:8000/insOT'
+
+
+
 
 
     ];

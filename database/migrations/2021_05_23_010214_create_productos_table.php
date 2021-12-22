@@ -13,11 +13,20 @@ class CreateProductosTable extends Migration
      */
     public function up()
     {
-        Schema::create('productos', function (Blueprint $table) {
+        Schema::create('producto', function (Blueprint $table) {
             $table->bigIncrements('idPrd');
+            $table->string('prdCod');
             $table->string('prdDes');
-            $table->integer('cantidad');
-            $table->integer('marca');
+            $table->string('prdObs')->nullable();
+            $table->string('prdRap');
+            $table->string('prdEan');
+            $table->string('prdTip');
+            $table->double('prdCost');
+            $table->double('prdNet');
+            $table->double('prdBrut');
+            $table->char('prdInv');
+            $table->string('prdPes')->nullable();
+            $table->string('prdMin');
             $table->timestamps();
         });
     }

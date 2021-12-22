@@ -19,7 +19,9 @@ class viewComunas extends Model
        'regDes',
        'comCod',
        'idCom',
-       'comDes'
+       'comDes',
+       'idCiu',
+       'ciuDes'
 
         ];
 }

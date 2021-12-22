@@ -18,9 +18,6 @@ class viewCiudad extends Model
        'idReg',
        'regCod',
        'regDes',
-       'comCod',
-       'idCom',
-       'comDes',
        'ciuDes',
        'ciuCod',
        'idCiu'

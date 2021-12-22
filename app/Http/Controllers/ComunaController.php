@@ -1,13 +1,12 @@
 <?php
 
 namespace App\Http\Controllers;
-
-use App\Models\Ciudad;
 use App\Models\Comuna;
 use App\Models\User;
 use App\Models\viewComunas;
-
 use Illuminate\Http\Request;
+use  App\Models\Proveedor;
+use App\Models\PrvDirDes;
 
 class ComunaController extends Controller
 {
@@ -68,7 +67,7 @@ class ComunaController extends Controller
             }
         }
 
-        public function insComuna(Request $request)
+        public function ins(Request $request)
         {
             $id     = 0;
             $header = $request->header('access-token');
@@ -88,6 +87,7 @@ class ComunaController extends Controller
                         'idPai' => $request->idPai,
                         'empId'  => 1,
                         'idReg' => $request->idReg,
+                        'idCiu' => $request->idCiu,
                         'comCod'  => $request->comCod,
                         'comDes'  => $request->comDes
                     ]);
@@ -111,7 +111,7 @@ class ComunaController extends Controller
             }
         }
 
-        public function delComuna(Request $request)
+        public function del(Request $request)
         {
             $id     = 0;
             $header = $request->header('access-token');
@@ -124,31 +124,41 @@ class ComunaController extends Controller
                 }
             }
             if($id >0){
-                $valida = Ciudad::all()->where('idCom' , $xid)->take(1);
-                //si la variable es null o vacia elimino el rol
+                   //si la variable es null o vacia elimino el rol
+                $valida = Proveedor::all()->where('idCiu', $xid)->take(1);
                 if(sizeof($valida) > 0 ){
-                      //en el caso que no se ecuentra vacia no puedo eliminar
-                     $resources = array(
-                        array("error" => "1", 'mensaje' => "La Comuna no se puede eliminar",
-                        'type'=> 'danger')
-                        );
-                       return response()->json($resources, 200);
-
+                    //en el caso que no se ecuentra vacia no puedo eliminar
+                   $resources = array(
+                      array("error" => "1", 'mensaje' => "La Comuna no se puede eliminar, asociado a Dirección",
+                      'type'=> 'danger')
+                      );
+                     return response()->json($resources, 200);
                 }else{
+
+                    $valida = PrvDirDes::all()->where('idCiu', $xid)->take(1);
+                    if(sizeof($valida) > 0 ){
+                        //en el caso que no se ecuentra vacia no puedo eliminar
+                       $resources = array(
+                          array("error" => "1", 'mensaje' => "La Comuna no se puede eliminar, asociado a Dirección",
+                          'type'=> 'danger')
+                          );
+                         return response()->json($resources, 200);
+                    }else{
+
                     $affected = Comuna:: where('idCom', $xid)->delete();
-
-                    if($affected > 0){
-                        $resources = array(
-                            array("error" => '0', 'mensaje' => "Comuna Eliminada Correctamente" ,'type'=> 'warning')
+                        if($affected > 0){
+                            $resources = array(
+                                array("error" => '0', 'mensaje' => "Comuna Eliminada Correctamente" ,'type'=> 'warning')
+                                );
+                            return response()->json($resources, 200);
+                        }else{
+                            $resources = array(
+                            array("error" => "2", 'mensaje' => "No se encuentra registro" ,'type'=> 'warning')
                             );
-                           return response()->json($resources, 200);
-                       }else{
-                          $resources = array(
-                           array("error" => "2", 'mensaje' => "No se encuentra registro" ,'type'=> 'warning')
-                           );
-                          return response()->json($resources, 200);
-                    }
+                            return response()->json($resources, 200);
+                        }
 
+                    }
                 }
 
             }else{
@@ -205,17 +215,11 @@ class ComunaController extends Controller
             if($id > 0 )
             {
              $datos = Comuna::select(['idCom' , 'comDes'])
-                              ->where('idReg' , $data['idReg'])
+                              ->where('idCiu' , $data['idCiu'])
+                              ->where('idPai',  $data['idPai'])
+                              ->where('idReg',  $data['idReg'])
                               ->get();
-
-                foreach($datos as $item){
-                    $resources = array(
-                        array('idCom'     => $item->idCom,
-                              'comDes'    => $item->comDes
-                            )
-                        );
-                    }
-             return $resources;
+             return $datos;
 
             }else{
                 return response()->json('error' , 203);

@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Ciudad;
 use App\Models\Comuna;
 use App\Models\Pais;
+use App\Models\Proveedor;
+use App\Models\PrvDirDes;
 use App\Models\Region;
 use App\Models\User;
 use App\Models\viewRegiones;
@@ -26,7 +29,7 @@ class RegionController extends Controller
 
                 if($id > 0 )
                 {
-                    return viewRegiones::all();
+                    return viewRegiones::all()->take(3000);
 
                 }else{
                     return response()->json('error' , 203);
@@ -69,7 +72,7 @@ class RegionController extends Controller
             }
         }
 
-        public function insRegion(Request $request)
+        public function ins(Request $request)
         {
             $id     = 0;
             $header = $request->header('access-token');
@@ -112,7 +115,7 @@ class RegionController extends Controller
             }
         }
 
-        public function delRegion(Request $request)
+        public function del(Request $request)
         {
             $id     = 0;
             $header = $request->header('access-token');
@@ -127,31 +130,54 @@ class RegionController extends Controller
                 }
             }
             if($id >0){
-                $valida = Comuna::all()->where('idCom' , $xid)->take(1);
+                $valida = Ciudad::all()->where('idReg' , $xid)->take(1);
                 //si la variable es null o vacia elimino el rol
                 if(sizeof($valida) > 0 ){
                       //en el caso que no se ecuentra vacia no puedo eliminar
                      $resources = array(
-                        array("error" => "1", 'mensaje' => "La Región  no se puede eliminar",
+                        array("error" => "1", 'mensaje' => "La Región  no se puede eliminar, asociado a Ciudad",
                         'type'=> 'danger')
                         );
                        return response()->json($resources, 200);
 
                 }else{
-                    $affected = Region:: where('idReg', $xid)->delete();
 
-                    if($affected > 0){
+                    $valida = Proveedor::all()->where('idReg' , $xid)->take(1);
+
+                    if(sizeof($valida) > 0 ){
                         $resources = array(
-                            array("error" => '0', 'mensaje' => "Región Eliminada Correctamente" ,'type'=> 'warning')
+                            array("error" => "1", 'mensaje' => "La Región  no se puede eliminar, asociado a Proveedor",
+                            'type'=> 'danger')
                             );
                            return response()->json($resources, 200);
-                       }else{
-                          $resources = array(
-                           array("error" => "2", 'mensaje' => "No se encuentra registro" ,'type'=> 'warning')
-                           );
-                          return response()->json($resources, 200);
-                    }
 
+                    }else{
+
+                        $valida = PrvDirDes::all()->where('idReg', $xid)->take(1);
+                        if(sizeof($valida) > 0 ){
+                            //en el caso que no se ecuentra vacia no puedo eliminar
+                           $resources = array(
+                              array("error" => "1", 'mensaje' => "La Comuna no se puede eliminar, asociado a Dirección",
+                              'type'=> 'danger')
+                              );
+                             return response()->json($resources, 200);
+                        }else{
+
+                            $affected = Region:: where('idReg', $xid)->delete();
+
+                            if($affected > 0){
+                                $resources = array(
+                                    array("error" => '0', 'mensaje' => "Región Eliminada Correctamente" ,'type'=> 'warning')
+                                    );
+                                return response()->json($resources, 200);
+                            }else{
+                                $resources = array(
+                                array("error" => "2", 'mensaje' => "No se encuentra registro" ,'type'=> 'warning')
+                                );
+                                return response()->json($resources, 200);
+                            }
+                        }
+                    }
                 }
 
             }else{
