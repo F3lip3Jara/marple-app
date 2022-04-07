@@ -311,6 +311,54 @@ class ProductoController extends Controller
         }
    }
 
+   public function datPrdMtP(Request $request){
+     $header = $request->header('access-token');
+     $val    = User::select('token' , 'id', 'activado')->where('token' , $header)->get();
+
+        if($header == ''){
+            return response()->json('error' , 203);
+        }else{
+        foreach($val as $item){
+            if($item->activado = 'A'){
+                $id = $item->id;
+            }
+        }
+            if($id > 0 ){
+                return Producto::select('idPrd', 'prdDes' , 'prdTip')
+                ->where('prdTip', 'Z')
+                ->orWhere('prdTip','=', 'D')
+                ->orWhere('prdTip','=', 'A')
+                ->orWhere('prdTip','=', 'T')
+                ->get();
+
+            }
+        }
+   }
+
+
+   public function prodTerm(Request $request){
+    $header = $request->header('access-token');
+    $val    = User::select('token' , 'id', 'activado')->where('token' , $header)->get();
+
+       if($header == ''){
+           return response()->json('error' , 203);
+       }else{
+       foreach($val as $item){
+           if($item->activado = 'A'){
+               $id = $item->id;
+           }
+       }
+           if($id > 0 ){
+               return Producto::select('idPrd', 'prdCod', 'prdDes')
+               ->where('prdTip',  'P')
+               ->get();
+
+           }
+       }
+  }
+
+
+
 
 
 }

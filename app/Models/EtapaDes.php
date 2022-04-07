@@ -14,7 +14,6 @@ class EtapaDes extends Model
         'idEta',
         'idEtaDes',
         'etaDesDes',
-        'etaFecIni',
-        'etaFecFin'
+        'etaDesDel'
     ];
 }

@@ -5,13 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Etapa extends Model
+class viewOrddetProd extends Model
 {
     use HasFactory;
-    protected $table    ='etapasuser';
+    protected $table    ='ordenes_de_trabajos_det';
     protected $fillable = [
-        'idEta',
-        'etaDes',
-        'etaProd'
-    ];
+    'id',
+     'orden_produccion',
+     'ordtdPrdCod'];
 }

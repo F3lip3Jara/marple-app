@@ -20,6 +20,9 @@ class VerifyCsrfToken extends Middleware
         'http://127.0.0.1:8000/insEtapas',
         'http://127.0.0.1:8000/delEtapas',
         'http://127.0.0.1:8000/udpEtapas',
+        'http://127.0.0.1:8000/insEtapasDet',
+        'http://127.0.0.1:8000/delEtapasDet',
+        'http://127.0.0.1:8000/updEtapasDet',
         'http://127.0.0.1:8000/insUser',
         'http://127.0.0.1:8000/up_Password',
         'http://127.0.0.1:8000/insGerencia',
@@ -28,6 +31,7 @@ class VerifyCsrfToken extends Middleware
         'http://127.0.0.1:8000/setUserSession',
         'http://127.0.0.1:8000/valUsuario',
         'http://127.0.0.1:8000/upUsuario',
+        'http://127.0.0.1:8000/upUsuario2',
         'http://127.0.0.1:8000/updEtapas',
         'http://127.0.0.1:8000/insPais',
         'http://127.0.0.1:8000/delPais',
@@ -63,7 +67,17 @@ class VerifyCsrfToken extends Middleware
         'http://127.0.0.1:8000/insProducto',
         'http://127.0.0.1:8000/updProducto',
         'http://127.0.0.1:8000/insOrd',
-        'http://127.0.0.1:8000/insOT'
+        'http://127.0.0.1:8000/insOT',
+        'http://127.0.0.1:8000/insMaquinas',
+        'http://127.0.0.1:8000/updMaquinas',
+        'http://127.0.0.1:8000/delMaquinas',
+        'http://127.0.0.1:8000/insCalJul',
+        'http://127.0.0.1:8000/updCalJul',
+        'http://127.0.0.1:8000/delCalJul',
+        'http://127.0.0.1:8000/insLogSys',
+        'http://127.0.0.1:8000/insMezcla',
+        'http://127.0.0.1:8000/confMezcla',
+        'http://127.0.0.1:8000/rechaMezcla'
 
 
 

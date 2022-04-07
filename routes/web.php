@@ -36,6 +36,7 @@ Route::get('/', function () {
     Route::get('valUsuario'     , 'App\Http\Controllers\UserController@valUsuario');
     Route::post('upUsuario'     , 'App\Http\Controllers\UserController@upUsuario');
     Route::get('getUsuarios'    , 'App\Http\Controllers\UserController@getUsuarios');
+    Route::post('upUsuario2'    , 'App\Http\Controllers\UserController@upUsuario2');
 
     //Route::get('getUser'      , 'App\Http\Controllers\UserController@setUserSession');
     Route::get('Imprimir'       , 'App\Http\Controllers\Etiquetas@imprimir');
@@ -57,6 +58,16 @@ Route::get('/', function () {
     Route::post('insEtapas'     , 'App\Http\Controllers\EtapasController@ins');
     Route::post('delEtapas'     , 'App\Http\Controllers\EtapasController@del');
     Route::post('updEtapas'     , 'App\Http\Controllers\EtapasController@update');
+    Route::get('etapasProd'     , 'App\Http\Controllers\EtapasController@index1');
+
+
+    Route::get('trabEtapasDet'     , 'App\Http\Controllers\EtapasDesController@index');
+    Route::post('insEtapasDet'     , 'App\Http\Controllers\EtapasDesController@ins');
+    Route::post('delEtapasDet'     , 'App\Http\Controllers\EtapasDesController@del');
+    Route::post('updEtapasDet'     , 'App\Http\Controllers\EtapasDesController@update');
+
+
+
 
     Route::get('trabEmpresa'    , 'App\Http\Controllers\EmpresaController@index');
 
@@ -149,7 +160,8 @@ Route::get('/', function () {
     Route::get('prdDes'          , 'App\Http\Controllers\ProductoController@prdDes');
     Route::get('filPrdCod'       , 'App\Http\Controllers\ProductoController@filPrdCod');
     Route::get('datPrd'          , 'App\Http\Controllers\ProductoController@datPrd');
-
+    Route::get('datPrdMtP'       , 'App\Http\Controllers\ProductoController@datPrdMtP');
+    Route::get('prodTerm'        , 'App\Http\Controllers\ProductoController@prodTerm');
 
     Route::get('trabOrden'       , 'App\Http\Controllers\OrdenProdController@index');
     Route::post('insOrd'         , 'App\Http\Controllers\OrdenProdController@ins');
@@ -159,9 +171,39 @@ Route::get('/', function () {
     Route::get('opNumRea'        , 'App\Http\Controllers\OrdenProdController@opNumRea');
     Route::get('filopNumRea'     , 'App\Http\Controllers\OrdenProdController@filopNumRea');
     Route::get('OrdPDetDta'      , 'App\Http\Controllers\OrdenProdController@OrdPDetDta');
-    Route::get('valPrdOrd'      , 'App\Http\Controllers\OrdenProdController@valPrdOrd');
+    Route::get('valPrdOrd'       , 'App\Http\Controllers\OrdenProdController@valPrdOrd');
 
 
-    Route::post('insOT'         , 'App\Http\Controllers\OrdenTrabController@ins');
-    Route::get('trabOt'       , 'App\Http\Controllers\OrdenTrabController@index');
+    Route::post('insOT'          , 'App\Http\Controllers\OrdenTrabController@ins');
+    Route::get('trabOt'          , 'App\Http\Controllers\OrdenTrabController@index');
     Route::get('filotNumRea'     , 'App\Http\Controllers\OrdenTrabController@filopNumRea');
+
+
+
+    Route::get('trabMaquinas'     , 'App\Http\Controllers\MaquinasController@index');
+    Route::post('insMaquinas'     , 'App\Http\Controllers\MaquinasController@ins');
+    Route::post('delMaquinas'     , 'App\Http\Controllers\MaquinasController@del');
+    Route::post('updMaquinas'     , 'App\Http\Controllers\MaquinasController@update');
+    Route::get('filEta'           , 'App\Http\Controllers\MaquinasController@filEta');
+
+
+    Route::get('trabCalJul'     , 'App\Http\Controllers\CalendarioJulController@index');
+    Route::post('insCalJul'     , 'App\Http\Controllers\CalendarioJulController@ins');
+    Route::post('delCalJul'     , 'App\Http\Controllers\CalendarioJulController@del');
+    Route::get('busUltAno'      , 'App\Http\Controllers\CalendarioJulController@busUltAno');
+    Route::get('valCal'         , 'App\Http\Controllers\CalendarioJulController@valCal');
+    Route::get('diaJul'         , 'App\Http\Controllers\CalendarioJulController@diaJul');
+
+    Route::get('trabLogSys'     , 'App\Http\Controllers\LogController@index');
+    Route::post('insLogSys'     , 'App\Http\Controllers\LogController@ins');
+
+    Route::get('trabMezcla'     , 'App\Http\Controllers\MezclaController@index');
+    Route::post('insMezcla'     , 'App\Http\Controllers\MezclaController@ins');
+    Route::get('mezclaDet'      , 'App\Http\Controllers\MezclaController@mezclaDet');
+    Route::post('confMezcla'    , 'App\Http\Controllers\MezclaController@confMezcla');
+    Route::get('filLotSal'      , 'App\Http\Controllers\MezclaController@filLotSal');
+    Route::post('rechaMezcla'   , 'App\Http\Controllers\MezclaController@rechaMezcla');
+    Route::get('getSaca'        , 'App\Http\Controllers\MezclaController@getSaca');
+
+    //Bin
+    Route::get('trabBins'       , 'App\Http\Controllers\BinController@index');

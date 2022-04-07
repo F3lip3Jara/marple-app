@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class UserEtapa extends Migration
+class BinCorrelativo extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,11 @@ class UserEtapa extends Migration
      */
     public function up()
     {
-        Schema::create('etapasUser', function (Blueprint $table) {
-            $table->bigIncrements('idEta');
-            $table->string('etaDes');
-            $table->char('etaProd')->nullable();
+        Schema::create('bins_col', function (Blueprint $table) {
+            $table->bigIncrements('idColb');
+            $table->bigInteger('empId')->unsigned();
+            $table->foreign('empId')->references('empId')->on('empresa');
+            $table->bigInteger('colbnum')->unsigned();
             $table->timestamps();
         });
     }

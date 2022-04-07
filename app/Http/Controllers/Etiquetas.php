@@ -33,7 +33,7 @@ class Etiquetas extends Controller
 
             return "imprimiendo";*/
 
-                $file = fopen("C:\\texto.txt", "a");
+                $file = fopen("C:\\texto1.txt", "a");
 
                 fwrite($file, "N" . PHP_EOL);
                 fwrite($file, 'A50,300,0,3,2,2,R,"Example6"' . PHP_EOL);

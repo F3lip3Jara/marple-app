@@ -5,13 +5,17 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Etapa extends Model
+class Maquinas extends Model
 {
     use HasFactory;
-    protected $table    ='etapasuser';
+
+    protected $table    ='maquinas';
     protected $fillable = [
+        'idMaq',
         'idEta',
-        'etaDes',
-        'etaProd'
+        'maqDes',
+        'empId',
+        'maqCod',
+        'maqTip'
     ];
 }

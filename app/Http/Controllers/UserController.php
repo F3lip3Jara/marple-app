@@ -188,9 +188,7 @@ class UserController extends Controller
                     foreach($val as $item){
                         $count = $count + 1;
                     }
-
                     return response()->json($count , 200);
-
             }else{
                 return response()->json('error' , 203);
             }
@@ -223,8 +221,6 @@ class UserController extends Controller
                  $idRol          = $data['idRol'];
                  $gerId          = $data['gerId'];
 
-
-
               User::create([
                      'email'    => '',
                      'password' => bcrypt($password),
@@ -236,9 +232,7 @@ class UserController extends Controller
                      'reinicio' => 'S'
 
                 ]);
-
                  $id =User::select(['id'])->where('name', $name)->get();
-
                  foreach ( $id as $item ){
                      $xid = $item['id'];
                  }
@@ -301,13 +295,11 @@ class UserController extends Controller
                     'reinicio' => 'N'
 
                 ]);
-
                 $resources = array(
                     array("error" => "0", 'mensaje' => "Password actualizada",
                     'type'=> 'success')
                     );
                    return response()->json($resources, 200);
-
             }else{
                 $resources = array(
                     array("error" => "1", 'mensaje' => "El usuario no está marcado para reinicio".$reinicio,
@@ -360,7 +352,6 @@ class UserController extends Controller
                 ]);
             }
 
-
         $valida = Empleado::where('id', $xid)->update([
             'emploNom'    => $data['emploNom'],
             'emploApe'    => $data['emploApe'],
@@ -382,26 +373,18 @@ class UserController extends Controller
             return response()->json($resources, 200);
         }
 
-
-
-        }catch(Exception $ex){
-            return $ex;
-        }
-
-
-       }else{
-        $resources = array(
-            array("error" => "1", 'mensaje' => "Usuario desactivado",
-            'type'=> 'danger')
-            );
-        return response()->json($resources, 200);
-
+       }catch(Exception $ex){
+           return $ex;
        }
-    }
-
+      }else{
+        $resources = array(
+           array("error" => "1", 'mensaje' => "Usuario desactivado",
+           'type'=> 'danger')
+           );
+       return response()->json($resources, 200);
+       }
      }
-
-
+    }
      function getUsuarios(Request $request){
         $header = $request->header('access-token');
         $val    = User::select('token' , 'id', 'activado', 'reinicio')->where('token' , $header)->get();
@@ -428,4 +411,60 @@ class UserController extends Controller
 
       }
      }
+
+     public function upUsuario2(Request $request){
+
+        $header = $request->header('access-token');
+        $val    = User::select('token' , 'id', 'activado', 'reinicio')->where('token' , $header)->get();
+
+        if($header == ''){
+            return response()->json('error' , 203);
+        }else{
+
+            foreach($val as $item){
+                if($item->activado == 'A'){
+                    $id = $item->id;
+                }
+            }
+
+       if($id > 0 ){
+        try{
+
+            $data = request()->all();
+
+            foreach($data as $itemx){
+                    $imgName =  $itemx['imgName'];
+            }
+
+
+           $valida = Empleado::where('id', $id)->update([
+                'emploAvatar' => $imgName
+            ]);
+
+         if($valida == 1){
+            $resources = array(
+                array("error" => "0", 'mensaje' => "Usuario actualizado",
+                'type'=> 'success')
+                );
+            return response()->json($resources, 200);
+        }else{
+            $resources = array(
+                array("error" => "1", 'mensaje' => "Error en el servidor",
+                'type'=> 'danger')
+                );
+            return response()->json($resources, 200);
+        }
+        }catch(Exception $ex){
+            return $ex;
+        }
+       }else{
+        $resources = array(
+            array("error" => "1", 'mensaje' => "Usuario desactivado",
+            'type'=> 'danger')
+            );
+        return response()->json($resources, 200);
+       }
+     }
+    }
+
 }

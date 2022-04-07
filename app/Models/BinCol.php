@@ -5,13 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Etapa extends Model
+class BinCol extends Model
 {
     use HasFactory;
-    protected $table    ='etapasuser';
+
+    protected $table    ='bins_col';
     protected $fillable = [
-        'idEta',
-        'etaDes',
-        'etaProd'
+        'idColb',
+        'empId',
+        'colbnum'
     ];
 }

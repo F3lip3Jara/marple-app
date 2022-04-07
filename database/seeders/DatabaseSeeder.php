@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\BinCol;
 use App\Models\Ciudad;
 use App\Models\Color;
 use App\Models\Comuna;
@@ -9,6 +10,8 @@ use App\Models\producto;
 use App\Models\Roles;
 use App\Models\User;
 use App\Models\Empresa;
+use App\Models\Etapa;
+use App\Models\EtapaDes;
 use App\Models\Grupo;
 use App\Models\Moneda;
 use App\Models\Pais;
@@ -81,6 +84,93 @@ class DatabaseSeeder extends Seeder
             'unCod' => 'MT3',
             'unDes' => 'METRO CÚBICO',
             'empId'  =>1
+        ]);
+
+        BinCol::create([
+            'empId'   => 1,
+            'colbnum' => 400
+        ]);
+
+
+        Etapa::create(['etaDes' => 'SEGURIDAD' ,
+                       'etaProd'=> 'N']);
+
+        Etapa::create(['etaDes' => 'PARAMETROS' ,
+                       'etaProd'=> 'N']);
+
+        Etapa::create(['etaDes' => 'MEZCLA' ,
+                       'etaProd'=> 'S']);
+
+
+        //1-1
+        EtapaDes::create([
+                        'idEta' =>1,
+                        'etaDesDes' =>'LOGEO DE USUARIO',
+                        'etaDesDel' => 'N'
+                    ]);
+        //1-2
+        EtapaDes::create([
+                        'idEta' =>1,
+                        'etaDesDes' =>'INGRESO DE USUARIO',
+                        'etaDesDel' => 'N'
+                    ]);
+        //1-3
+         EtapaDes::create([
+                        'idEta' =>1,
+                        'etaDesDes' =>'REINICIO DE USUARIO',
+                        'etaDesDel' => 'N'
+                    ]);
+        //1-4
+         EtapaDes::create([
+                        'idEta' =>1,
+                        'etaDesDes' =>'DESHABILITAR USUARIO',
+                        'etaDesDel' => 'N'
+                    ]);
+        //1-5
+        EtapaDes::create([
+                        'idEta' =>1,
+                        'etaDesDes' =>'HABILITAR USUARIO',
+                        'etaDesDel' => 'N'
+                    ]);
+        //1-6
+        EtapaDes::create([
+            'idEta' =>1,
+            'etaDesDes' =>'INGRESAR ROL',
+            'etaDesDel' => 'N'
+        ]);
+        //1-7
+        EtapaDes::create([
+                        'idEta' =>1,
+                        'etaDesDes' =>'ACUALIZAR ROL',
+                        'etaDesDel' => 'N'
+                    ]);
+         //1-8
+        EtapaDes::create([
+                        'idEta' =>1,
+                        'etaDesDes' =>'ELIMINAR ROL',
+                        'etaDesDel' => 'N'
+                    ]);
+
+        EtapaDes::create([
+                        'idEta' =>2,
+                        'etaDesDes' =>'INGRESO  ETAPA',
+                        'etaDesDel' => 'N'
+                    ]);
+        EtapaDes::create([
+                        'idEta' =>2,
+                        'etaDesDes' =>'ACTUALIZAR ETAPA',
+                        'etaDesDel' => 'N'
+                    ]);
+        EtapaDes::create([
+                        'idEta' =>2,
+                        'etaDesDes' =>'ELIMINAR ETAPA',
+                        'etaDesDel' => 'N'
+                    ]);
+
+         EtapaDes::create([
+                    'idEta' =>3,
+                    'etaDesDes' =>'INGRESO DE MEZCLA',
+                    'etaDesDel' => 'N'
         ]);
     }
 }

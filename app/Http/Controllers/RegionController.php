@@ -3,8 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\Ciudad;
-use App\Models\Comuna;
-use App\Models\Pais;
 use App\Models\Proveedor;
 use App\Models\PrvDirDes;
 use App\Models\Region;
@@ -29,7 +27,7 @@ class RegionController extends Controller
 
                 if($id > 0 )
                 {
-                    return viewRegiones::all()->take(3000);
+                    return viewRegiones::all();
 
                 }else{
                     return response()->json('error' , 203);

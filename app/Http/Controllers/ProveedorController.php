@@ -216,7 +216,7 @@ public function valPrvRut(Request $request){
                     $resources = array(
                         array('idPai'     => $item->idPai,
                             'idReg'     => $item->idReg,
-                            'idCom'     => $item->idReg,
+                            'idCom'     => $item->idCom,
                             'idCiu'     => $item->idCiu,
                             'prvAct'    => $item->prvAct,
                             )

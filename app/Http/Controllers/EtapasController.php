@@ -22,7 +22,7 @@ class EtapasController extends Controller
                 $id = $item->id;
             }
         if($id > 0 ){
-            return Etapa::all()->take(100);
+            return Etapa::all();
         }else {
             return response()->json('error' , 203);
         }
@@ -46,11 +46,12 @@ class EtapasController extends Controller
             }
         }
         if($id > 0 ){
-            $affected = Etapa::create(['etaDes' => $request->etaDes]);
+            $affected = Etapa::create(['etaDes' => $request->etaDes ,
+                                       'etaProd'=> $request->etaProd]);
 
             if( isset( $affected)){
                 $resources = array(
-                    array("error" => "0", 'mensaje' => "Rol ingresado manera correcta",
+                    array("error" => "0", 'mensaje' => "Etapa ingresada manera correcta",
                     'type'=> 'success')
                     );
                 return response()->json($resources, 200);
@@ -101,7 +102,6 @@ class EtapasController extends Controller
                     );
                     return response()->json($resources, 200);
                 }
-
             }
 
         }else{
@@ -124,7 +124,8 @@ class EtapasController extends Controller
             }
 
         if($id > 0 ){
-            $affected = Etapa::where('idEta' , $request->idEta)->update(['etaDes' => $request->etaDes]);
+            $affected = Etapa::where('idEta' , $request->idEta)
+                              ->update(['etaDes' => $request->etaDes , 'etaProd' => $request->etaProd]);
 
             if($affected > 0){
                 $resources = array(
@@ -138,8 +139,29 @@ class EtapasController extends Controller
         }else {
                 return response()->json('error' , 203);
         }
+       }
     }
-}
 
+    public function index1(Request $request){
+        $id     = 0;
+        $header = $request->header('access-token');
+        $val    = User::select('token' , 'id', 'activado')->where('token' , $header)->get();
+
+        if($header == ''){
+            return response()->json('error' , 203);
+        }else{
+
+            foreach($val as $item){
+                $id = $item->id;
+            }
+        if($id > 0 ){
+            $etapas =  Etapa::select('*')->where('etaProd' , 'S')->get();
+            return response()->json($etapas , 200);
+
+        }else {
+            return response()->json('error' , 203);
+        }
+      }
+    }
 
 }

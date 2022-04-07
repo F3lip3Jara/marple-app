@@ -315,8 +315,9 @@ class OrdenProdController extends Controller
                     return  OrdProDet::select('*')->where('idOrp' ,$data['idOrp'])->whereNotExists(function($query)
                     {
                         $query->select(DB::raw(1))
-                              ->from('ord_trabajo_det')
-                              ->whereRaw('ord_produccion_det.orpdPrdCod = ord_trabajo_det.ordtdPrdCod');
+                              ->from('ordenes_de_trabajos_det')
+                              ->whereRaw( 'ord_produccion_det.idOrp     = ordenes_de_trabajos_det.orden_produccion' )
+                              ->whereRaw('ord_produccion_det.orpdPrdCod = ordenes_de_trabajos_det.ordtdPrdCod');
                     })->get();
 
              }else{
@@ -327,6 +328,7 @@ class OrdenProdController extends Controller
 
 
      public function valPrdOrd( Request $request){
+
         $header = $request->header('access-token');
         $val    = User::select('token' , 'id', 'activado')->where('token' , $header)->get();
         $error  = 0 ;
@@ -341,27 +343,15 @@ class OrdenProdController extends Controller
         }
             if($id > 0 ){
                 $data = $request->all();
-
-                $valida = OrdProDet::all()->where('orpdPrdCod' , $data['prdCod'])->take(1);
-                //si la variable es null o vacia elimino el rol
-                if(sizeof($valida) > 0 ){
-
-                        $error = 1 ;
-                       return response()->json($error, 200);
-
-                }else{
                     $affected = Producto::all()->where('prdCod' , $data['prdCod'])->take(1);
-
                     if(sizeof($affected) > 0 ){
                         $error = 3;
                         return response()->json($error, 200);
-
                     }else{
                         $error = 2 ;
                         return response()->json($error, 200);
                     }
 
-                }
             }else{
                 return response()->json('error' , 203);
             }
