@@ -324,11 +324,10 @@ class ProductoController extends Controller
             }
         }
             if($id > 0 ){
-                return Producto::select('idPrd', 'prdDes' , 'prdTip')
-                ->where('prdTip', 'Z')
-                ->orWhere('prdTip','=', 'D')
-                ->orWhere('prdTip','=', 'A')
-                ->orWhere('prdTip','=', 'T')
+                return Producto::select('idPrd', 'prdCod','prdDes' , 'prdTip')
+                ->where('prdTip', 'M')
+                ->orWhere('prdTip','=', 'B')
+                ->orWhere('prdTip','=', 'V')
                 ->get();
 
             }
@@ -351,6 +350,27 @@ class ProductoController extends Controller
            if($id > 0 ){
                return Producto::select('idPrd', 'prdCod', 'prdDes')
                ->where('prdTip',  'P')
+               ->get();
+
+           }
+       }
+  }
+
+  public function prodInsumo(Request $request){
+    $header = $request->header('access-token');
+    $val    = User::select('token' , 'id', 'activado')->where('token' , $header)->get();
+
+       if($header == ''){
+           return response()->json('error' , 203);
+       }else{
+       foreach($val as $item){
+           if($item->activado = 'A'){
+               $id = $item->id;
+           }
+       }
+           if($id > 0 ){
+               return Producto::select('idPrd', 'prdCod', 'prdDes')
+               ->where('prdTip',  'I')
                ->get();
 
            }

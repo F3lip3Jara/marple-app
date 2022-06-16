@@ -5,15 +5,15 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class EtapaDes extends Model
+class MovRechazo extends Model
 {
     use HasFactory;
 
-    protected $table    ='etapasUserDes';
+    protected $table    ='mot_rechazo';
     protected $fillable = [
-        'idEta',
-        'idEtaDes',
-        'etaDesDes',
-        'etaDesDel'
+        'idMot',
+        'empId',
+        'motDes'
     ];
+
 }

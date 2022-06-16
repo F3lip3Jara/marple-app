@@ -77,11 +77,16 @@ class VerifyCsrfToken extends Middleware
         'http://127.0.0.1:8000/insLogSys',
         'http://127.0.0.1:8000/insMezcla',
         'http://127.0.0.1:8000/confMezcla',
-        'http://127.0.0.1:8000/rechaMezcla'
-
-
-
-
+        'http://127.0.0.1:8000/rechaMezcla',
+        'http://127.0.0.1:8000/insExtrusion',
+        'http://127.0.0.1:8000/insConfirma',
+        'http://127.0.0.1:8000/confExtru',
+        'http://127.0.0.1:8000/insConfirmaO',
+        'http://127.0.0.1:8000/insConfirmaC',
+        'http://127.0.0.1:8000/insMotivo',
+        'http://127.0.0.1:8000/updMotivo',
+        'http://127.0.0.1:8000/delMotivo',
+        'http://127.0.0.1:8000/rechaExtru',
 
     ];
 }

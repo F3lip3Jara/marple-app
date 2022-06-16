@@ -13,7 +13,13 @@ class MotivoRechazo extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('mot_rechazo', function (Blueprint $table) {
+            $table->bigIncrements('idMot');
+            $table->bigInteger('empId')->unsigned();
+            $table->foreign('empId')->references('empId')->on('empresa');
+            $table->string('motDes');
+            $table->timestamps();
+        });
     }
 
     /**

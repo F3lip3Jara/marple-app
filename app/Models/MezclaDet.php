@@ -19,6 +19,7 @@ class MezclaDet extends Model
         'mezdprdDes',
         'mezdLotIng',
         'mezdUso',
-        'mezdKil'
+        'mezdKil',
+        'mezdManual'
     ];
 }

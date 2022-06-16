@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Exception;
-use Mike42\Escpos\Printer;
-use Mike42\Escpos\PrintConnectors\WindowsPrintConnector;
-use Illuminate\Http\Request;
+//use Mike42\Escpos\Printer;
+//use Mike42\Escpos\PrintConnectors\WindowsPrintConnector;
+//use Illuminate\Http\Request;
 
 class Etiquetas extends Controller
 {

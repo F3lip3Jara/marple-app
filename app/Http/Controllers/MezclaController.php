@@ -7,9 +7,10 @@ use App\Models\Mezcla ;
 use App\Models\MezclaDet;
 use App\Models\User;
 use App\Models\viewMezclas;
+use Carbon\Carbon;
 use Error;
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\DB;
 
 class MezclaController extends Controller
 {
@@ -64,6 +65,8 @@ class MezclaController extends Controller
                     $mezidPrd  = '';
                     $mezprdCod = '';
                     $mezprdDes = '';
+                    $mezdManual= '';
+                    $mezTurn   = $data['mezTurn'];
 
                     if($mezLotSal == ''){
                         $colbnum = BinCol::select('colbnum')->take(1)->get();
@@ -78,6 +81,28 @@ class MezclaController extends Controller
                         if($affected){
                             $mezLotSal = strval($bin);
                         }
+                     }else{
+
+                        $fecha    = Carbon::now()->format('Y-m-d');
+                        $count    = Mezcla::select("*")
+                        ->where(DB::raw("(DATE_FORMAT(created_at,'%Y-%m-%d'))"), "=", $fecha)
+                        ->where('mezTurn', $mezTurn)
+                        ->where('mezMaq', $mezMaq)
+                        ->count();
+
+                        if($count == 0){
+                            $count  = 1;
+                            $digito = '0'.strval($count);
+                        }else{
+                            $count  = $count + 1;
+                           if($count >=10){
+                               $digito = strval($count);
+                            }else{
+                               $digito = '0'.strval($count);
+                            }
+                        }
+
+                        $mezLotSal  = $mezLotSal.$digito;
                      }
 
                     if(sizeof($producto) > 0 ){
@@ -85,8 +110,9 @@ class MezclaController extends Controller
                         $mezprdCod = $producto['prdCod'];
                         $mezprdDes = $producto['prdDes'];
                     }
+
                     $mezProd   = $data['mezProd'];
-                    $mezTurn   = $data['mezTurn'];
+
 
                     $affected = Mezcla::create([
                         'empId'      => 1,
@@ -105,19 +131,26 @@ class MezclaController extends Controller
                         'mezObs'     => ''
                     ]);
 
+
+
                     if( isset( $affected)){
                        $idMez = $affected->id;
                        foreach($mezProd as $item){
+
+                        $idPrd = intval($item['idPrd']);
+
+
                             MezclaDet::create([
                                    'idMez'      => $idMez,
                                    'empId'      => 1,
-                                   'mezdidPrd'  => $item['idPrd'],
+                                   'mezdidPrd'  => $idPrd,
                                    'mezdprdCod' => $item['prdCod'],
                                    'mezdprdTip' => $item['prdTip'],
                                    'mezdprdDes' => $item['prdDes'],
                                    'mezdLotIng' => $item['mezLotIng'],
                                    'mezdUso'    => $item['mezdUso'],
-                                   'mezdKil'    => $item['mezdKil']
+                                   'mezdKil'    => $item['mezdKil'],
+                                   'mezdManual' => $item['mezdManual']
                             ]);
                        }
 

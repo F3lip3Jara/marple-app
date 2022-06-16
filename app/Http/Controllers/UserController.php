@@ -34,24 +34,23 @@ class UserController extends Controller
                     User::where('id', $idUser)
                     ->update(['token' => $token ]);
 
-                    $userlog = User::all(['id', 'name' , 'email', 'token', 'reinicio'])->where('id' , $user->id);
-                  foreach($userlog as $item){
-                        $resources = array(
-                            array('id'       => $item->id,
-                                'name'     => $item->name,
-                                'token'    => $item->token,
-                                'reinicio' => $item->reinicio
-                                )
+
+                        $resources =
+                            array('id'     => $user->id,
+                                'name'     => $user->name,
+                                'token'    => $token,
+                                'reinicio' => $user->reinicio
+
                             );
-                    }
+
                 return response()->json($resources,200);
 
             }else{
-                $resources = array(
+                $resources =array(
                     array("error" => "1", 'mensaje' => "Usuario desactivado",
                     'type'=> 'danger')
-                    );
-                   return response()->json($resources, 200);
+                );
+                return response()->json($resources, 200);
             }
         }else {
             $resources = array(
@@ -105,7 +104,8 @@ class UserController extends Controller
             if($id > 0 ){
                 return  viewUser::select('name', 'imgName','email','rolDes')->where('token',$header)->get();
              }else {
-                return response()->json('error' , 203);
+                return response()->json("error" , 203);
+
              }
         }
 

@@ -22,7 +22,7 @@ class MaquinasController extends Controller
                 }
             if($id > 0 ){
                $maquinas = Maquinas::select('*')
-                ->join('etapasuser', 'maquinas.idEta', '=', 'etapasuser.idEta')
+                ->join('etapasUser', 'maquinas.idEta', '=', 'etapasuser.idEta')
                 ->get();
 
                 return response()->json($maquinas , 200);
@@ -170,7 +170,7 @@ class MaquinasController extends Controller
 
            $data = $request->all();
            $maquinas = Maquinas::select('*')
-            ->join('etapasuser', 'maquinas.idEta', '=', 'etapasuser.idEta')
+            ->join('etapasUser', 'maquinas.idEta', '=', 'etapasUser.idEta')
             ->where('maquinas.idEta' , $data['idEta'])
             ->get();
 

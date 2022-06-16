@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Etapa;
 use App\Models\EtapaDes;
+use App\Models\Maquinas;
 use App\Models\User;
 use Illuminate\Http\Request;
 
@@ -80,8 +81,9 @@ class EtapasController extends Controller
 
         if($id >0){
             $valida = EtapaDes::all()->where('idEta' , $xid)->take(1);
+            $validaMaq = Maquinas::all()->where('idEta' , $xid)->take(1);
             //si la variable es null o vacia elimino el rol
-            if(sizeof($valida) > 0 ){
+            if(sizeof($valida) > 0 || sizeof($validaMaq) > 0){
                   //en el caso que no se ecuentra vacia no puedo eliminar
                   $resources = array(
                     array("error" => "1", 'mensaje' => "La etapa no se puede eliminar",

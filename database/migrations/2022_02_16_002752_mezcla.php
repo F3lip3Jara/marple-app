@@ -45,6 +45,7 @@ class Mezcla extends Migration
             $table->string('mezdprdDes');
             $table->string('mezdLotIng');
             $table->string('mezdUso');
+            $table->string('mezdManual')->nullable();
             $table->decimal('mezdKil' , 10 , 2);
             $table->timestamps();
         });

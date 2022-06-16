@@ -21,7 +21,8 @@ class OrdenProduccion extends Model
         'orpObs',
         'orpTurns',
         'orpEst',
-        'orpEstPrc'
+        'orpEstPrc',
+        'idEta'
     ];
 
 }

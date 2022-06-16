@@ -136,6 +136,12 @@ Route::get('/', function () {
     Route::get('valUnCod'        , 'App\Http\Controllers\UnidadMedidaController@valUnCod');
 
 
+    Route::get('trabMotivo'      , 'App\Http\Controllers\MovRechazoController@index');
+    Route::post('insMotivo'      , 'App\Http\Controllers\MovRechazoController@ins');
+    Route::post('delMotivo'      , 'App\Http\Controllers\MovRechazoController@del');
+    Route::post('updMotivo'      , 'App\Http\Controllers\MovRechazoController@update');
+
+
     Route::get('trabGrupo'       , 'App\Http\Controllers\GrupoController@index');
     Route::post('insGrupo'       , 'App\Http\Controllers\GrupoController@ins');
     Route::post('delGrupo'       , 'App\Http\Controllers\GrupoController@del');
@@ -162,6 +168,8 @@ Route::get('/', function () {
     Route::get('datPrd'          , 'App\Http\Controllers\ProductoController@datPrd');
     Route::get('datPrdMtP'       , 'App\Http\Controllers\ProductoController@datPrdMtP');
     Route::get('prodTerm'        , 'App\Http\Controllers\ProductoController@prodTerm');
+    Route::get('prodInsumo'      , 'App\Http\Controllers\ProductoController@prodInsumo');
+
 
     Route::get('trabOrden'       , 'App\Http\Controllers\OrdenProdController@index');
     Route::post('insOrd'         , 'App\Http\Controllers\OrdenProdController@ins');
@@ -176,6 +184,7 @@ Route::get('/', function () {
 
     Route::post('insOT'          , 'App\Http\Controllers\OrdenTrabController@ins');
     Route::get('trabOt'          , 'App\Http\Controllers\OrdenTrabController@index');
+    Route::get('trabOtTermo'     , 'App\Http\Controllers\OrdenTrabController@indexTermo');
     Route::get('filotNumRea'     , 'App\Http\Controllers\OrdenTrabController@filopNumRea');
 
 
@@ -207,3 +216,16 @@ Route::get('/', function () {
 
     //Bin
     Route::get('trabBins'       , 'App\Http\Controllers\BinController@index');
+
+    //Extusion
+    Route::get('trabExtrusion'  , 'App\Http\Controllers\ExtrusionController@index');
+    Route::post('insExtrusion'  , 'App\Http\Controllers\ExtrusionController@ins');
+    Route::post('rechaExtru'  , 'App\Http\Controllers\ExtrusionController@rechaExtru');
+    Route::post('insConfirma'   , 'App\Http\Controllers\ExtrusionController@insConfirma');
+    Route::post('insConfirmaO'   , 'App\Http\Controllers\ExtrusionController@insConfirmaO');
+    Route::post('insConfirmaC'   , 'App\Http\Controllers\ExtrusionController@insConfirmaC');
+    Route::post('confExtru'     ,  'App\Http\Controllers\ExtrusionController@confExtru');
+    Route::get('filLotSalExt'   , 'App\Http\Controllers\ExtrusionController@filLotSal');
+    Route::get('extDet'         , 'App\Http\Controllers\ExtrusionController@extDet');
+    Route::get('indexFil'         , 'App\Http\Controllers\ExtrusionController@indexFil');
+    Route::get('extruDis'         , 'App\Http\Controllers\ExtrusionController@extruDis');

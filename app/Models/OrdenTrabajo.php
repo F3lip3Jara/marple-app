@@ -19,5 +19,6 @@ class OrdenTrabajo extends Model
         'orptTurns',
         'orptEst',
         'orptPrio'
+
     ];
 }

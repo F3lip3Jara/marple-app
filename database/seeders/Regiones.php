@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\Pais;
 use App\Models\Region;
 use Illuminate\Database\Seeder;
+use GuzzleHttp\Client;
 
 class Regiones extends Seeder
 {
@@ -16,36 +17,61 @@ class Regiones extends Seeder
     public function run()
     {
 
-        $json = file_get_contents("database/data/Paises.json");
-        $data = json_decode($json);
+
+        $headers = [
+            'Accept'    => 'application/json',
+            "api-token" => "drPBKMTX1GevwJgkVqj6lq4PrMV9RcfMW5CjlC4Nf0HiswQu_tX596ptjc4wnBrqmws",
+            "user-email"=> "jrfelipe@hotmail.com"
+        ];
+
+
+        $client = new Client([
+            'base_uri'=> 'https://www.universal-tutorial.com/api/',
+            'headers' =>  $headers
+        ]);
+
+        $request    = $client->request('GET', 'getaccesstoken' );
+        $auth_token = json_decode($request->getBody()->getContents());
+
+        foreach($auth_token as $item){
+           $token = $item;
+        }
+
+        $headers = [
+            'Accept'        => 'application/json',
+            'Authorization' => 'Bearer ' . $token,
+
+        ];
+
+        $client2 = new Client([
+            'base_uri'=> 'https://www.universal-tutorial.com/api/',
+            'headers' =>  $headers
+        ]);
+
+        $request2    = $client2->request('GET', 'countries/' );
+        $data       = json_decode($request2->getBody()->getContents());
+
         foreach ($data as $obj) {
              Pais::create([
-                'paiCod' => $obj->iso2,
-                'paiDes' => strtoupper($obj->nombre),
+                'paiCod' => $obj->country_short_name,
+                'paiDes' => mb_strtoupper($obj->country_name , 'UTF-8'),
                 'empId'  => 1
             ]);
         }
 
+        $paises = Pais::all();
 
-        $json = file_get_contents("database/data/Regiones.json");
-        $data = json_decode($json);
-        foreach ($data as $obj) {
-          $id =0;
-          $id = Pais::select('idPai')->where(['paiCod'=> $obj->cod_pai])->get();
-
-            foreach($id as $xid){
-
-
+        foreach($paises as $pais){
+            $request3    = $client2->request('GET', 'states/'.$pais->paiDes );
+            $regiones        = json_decode($request3->getBody()->getContents());
+            foreach($regiones as $region){
                 Region::create([
-                    'idPai' => $xid->idPai,
+                    'idPai' => $pais->idPai,
                     'empId'  => 1,
-                    'regCod' => $obj->cod_reg,
-                    'regDes'  => mb_strtoupper($obj->desreg, "UTF-8")
+                    'regDes' => $region->state_name,
+                    'regCod' => 'A'
                 ]);
             }
-
         }
-
-
     }
 }

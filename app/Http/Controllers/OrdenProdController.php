@@ -94,6 +94,7 @@ class OrdenProdController extends Controller
                     $affected       = OrdenProduccion::create([
                             'empId'     => 1,
                             'idPrv'     => $item['idPrv'],
+                            'idEta'     => $item['idEta'],
                             'orpNumOc'  => $item['orpNumOc'],
                             'orpFech'   => $orpFech,
                             'orpUsrG'   => $orpUsrG,

@@ -34,6 +34,19 @@ class DatabaseSeeder extends Seeder
             'idRol' => 1,
             'rolDes' =>'ADMINISTRADOR'
           ]);
+          Roles::create([
+            'idRol' => 2,
+            'rolDes' =>'JEFE PRODUCCIÓN'
+          ]);
+          Roles::create([
+            'idRol' => 3,
+            'rolDes' =>'CALIDAD'
+          ]);
+          Roles::create([
+            'idRol' => 4,
+            'rolDes' =>'OPERADOR'
+          ]);
+
 
           User::create([
               'name'       => 'ADMINISTRADOR',
@@ -100,6 +113,10 @@ class DatabaseSeeder extends Seeder
 
         Etapa::create(['etaDes' => 'MEZCLA' ,
                        'etaProd'=> 'S']);
+
+        Etapa::create(['etaDes' => 'EXTRUSIÓN' ,
+                       'etaProd'=> 'S']);
+
 
 
         //1-1
@@ -172,5 +189,10 @@ class DatabaseSeeder extends Seeder
                     'etaDesDes' =>'INGRESO DE MEZCLA',
                     'etaDesDel' => 'N'
         ]);
+        EtapaDes::create([
+            'idEta' =>4,
+            'etaDesDes' =>'INGRESO DE EXTRUSION',
+            'etaDesDel' => 'N'
+            ]);
     }
 }

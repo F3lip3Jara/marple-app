@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Etapa extends Model
 {
     use HasFactory;
-    protected $table    ='etapasuser';
+    protected $table    ='etapasUser';
     protected $fillable = [
         'idEta',
         'etaDes',
