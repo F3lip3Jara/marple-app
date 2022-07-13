@@ -22,7 +22,7 @@ class LogController extends Controller
                 $id = $item->id;
             }
             if($id > 0 ){
-                return LogSys:: all();
+                return response()->json(LogSys::all() , 200);
             }else {
                 return response()->json('error' , 203);
             }

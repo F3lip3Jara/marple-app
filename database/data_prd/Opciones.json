@@ -1,0 +1,209 @@
+[
+  {
+    "idOpt": "1",
+    "empId": "1",
+    "optDes": "Usuario.",
+    "optLink": "users",
+    "optSub": "N",
+    "created_at": "2022-07-10 23:20:18",
+    "updated_at": "2022-07-10 23:20:18"
+  },
+  {
+    "idOpt": "2",
+    "empId": "1",
+    "optDes": "Roles.",
+    "optLink": "roles",
+    "optSub": "N",
+    "created_at": "2022-07-10 23:20:19",
+    "updated_at": "2022-07-10 23:20:19"
+  },
+  {
+    "idOpt": "3",
+    "empId": "1",
+    "optDes": "Modulos",
+    "optLink": "modulos",
+    "optSub": "N",
+    "created_at": "2022-07-10 23:20:19",
+    "updated_at": "2022-07-10 23:20:19"
+  },
+  {
+    "idOpt": "4",
+    "empId": "1",
+    "optDes": "Roles-Modulos",
+    "optLink": "rol_mod",
+    "optSub": "N",
+    "created_at": "2022-07-10 23:20:19",
+    "updated_at": "2022-07-10 23:20:19"
+  },
+  {
+    "idOpt": "5",
+    "empId": "1",
+    "optDes": "Roles-Opciones",
+    "optLink": "rol_opt",
+    "optSub": "N",
+    "created_at": "2022-07-10 23:20:19",
+    "updated_at": "2022-07-10 23:20:19"
+  },
+  {
+    "idOpt": "6",
+    "empId": "1",
+    "optDes": "Opciones",
+    "optLink": "opt",
+    "optSub": "N",
+    "created_at": "2022-07-10 23:20:19",
+    "updated_at": "2022-07-10 23:20:19"
+  },
+  {
+    "idOpt": "7",
+    "empId": "1",
+    "optDes": "Sub-Opciones",
+    "optLink": "sopt",
+    "optSub": "N",
+    "created_at": "2022-07-10 23:20:19",
+    "updated_at": "2022-07-10 23:20:19"
+  },
+  {
+    "idOpt": "8",
+    "empId": "1",
+    "optDes": "Etapas.",
+    "optLink": "etapas",
+    "optSub": "N",
+    "created_at": "2022-07-10 23:20:20",
+    "updated_at": "2022-07-10 23:20:20"
+  },
+  {
+    "idOpt": "9",
+    "empId": "1",
+    "optDes": "Log de Sistema.",
+    "optLink": "logsys",
+    "optSub": "N",
+    "created_at": "2022-07-10 23:20:20",
+    "updated_at": "2022-07-10 23:20:20"
+  },
+  {
+    "idOpt": "10",
+    "empId": "1",
+    "optDes": "Correlativo bins.",
+    "optLink": "binCol",
+    "optSub": "N",
+    "created_at": "2022-07-10 23:20:20",
+    "updated_at": "2022-07-10 23:20:20"
+  },
+  {
+    "idOpt": "11",
+    "empId": "1",
+    "optDes": "Calendario Jul.",
+    "optLink": "calJul",
+    "optSub": "N",
+    "created_at": "2022-07-10 23:20:20",
+    "updated_at": "2022-07-10 23:20:20"
+  },
+  {
+    "idOpt": "12",
+    "empId": "1",
+    "optDes": "Empresa.",
+    "optLink": "empresa",
+    "optSub": "N",
+    "created_at": "2022-07-10 23:20:20",
+    "updated_at": "2022-07-10 23:20:20"
+  },
+  {
+    "idOpt": "13",
+    "empId": "1",
+    "optDes": "Gerencia.",
+    "optLink": "gerencia",
+    "optSub": "N",
+    "created_at": "2022-07-10 23:20:20",
+    "updated_at": "2022-07-10 23:20:20"
+  },
+  {
+    "idOpt": "14",
+    "empId": "1",
+    "optDes": "Geolocalización.",
+    "optLink": "",
+    "optSub": "S",
+    "created_at": "2022-07-10 23:20:20",
+    "updated_at": "2022-07-10 23:20:20"
+  },
+  {
+    "idOpt": "15",
+    "empId": "1",
+    "optDes": "Moneda.",
+    "optLink": "moneda",
+    "optSub": "N",
+    "created_at": "2022-07-10 23:20:21",
+    "updated_at": "2022-07-10 23:20:21"
+  },
+  {
+    "idOpt": "16",
+    "empId": "1",
+    "optDes": "Motivo.",
+    "optLink": "motivo",
+    "optSub": "N",
+    "created_at": "2022-07-10 23:20:21",
+    "updated_at": "2022-07-10 23:20:21"
+  },
+  {
+    "idOpt": "17",
+    "empId": "1",
+    "optDes": "Proveedor",
+    "optLink": "proveedor",
+    "optSub": "N",
+    "created_at": "2022-07-10 23:20:21",
+    "updated_at": "2022-07-10 23:20:21"
+  },
+  {
+    "idOpt": "18",
+    "empId": "1",
+    "optDes": "Material.",
+    "optLink": "",
+    "optSub": "S",
+    "created_at": "2022-07-10 23:20:22",
+    "updated_at": "2022-07-10 23:20:22"
+  },
+  {
+    "idOpt": "19",
+    "empId": "1",
+    "optDes": "Maquina.",
+    "optLink": "maquinas",
+    "optSub": "N",
+    "created_at": "2022-07-10 23:20:22",
+    "updated_at": "2022-07-10 23:20:22"
+  },
+  {
+    "idOpt": "20",
+    "empId": "1",
+    "optDes": "Mezcla.",
+    "optLink": "mezcla",
+    "optSub": "N",
+    "created_at": "2022-07-10 23:20:23",
+    "updated_at": "2022-07-10 23:20:23"
+  },
+  {
+    "idOpt": "21",
+    "empId": "1",
+    "optDes": "Extrusión.",
+    "optLink": "extrusion",
+    "optSub": "N",
+    "created_at": "2022-07-10 23:20:23",
+    "updated_at": "2022-07-10 23:20:23"
+  },
+  {
+    "idOpt": "22",
+    "empId": "1",
+    "optDes": "OP.",
+    "optLink": "op",
+    "optSub": "N",
+    "created_at": "2022-07-10 23:20:23",
+    "updated_at": "2022-07-10 23:20:23"
+  },
+  {
+    "idOpt": "23",
+    "empId": "1",
+    "optDes": "Termoformado.",
+    "optLink": "Ot_Ter",
+    "optSub": "N",
+    "created_at": "2022-07-10 23:20:23",
+    "updated_at": "2022-07-10 23:20:23"
+  }
+]

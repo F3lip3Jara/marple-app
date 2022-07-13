@@ -1,0 +1,222 @@
+[
+  {
+    "idEta": "1",
+    "etaDesDes": "LOGEO DE USUARIO",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "1",
+    "etaDesDes": "INGRESO DE USUARIO",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "1",
+    "etaDesDes": "REINICIO DE USUARIO",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "1",
+    "etaDesDes": "DESHABILITAR USUARIO",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "1",
+    "etaDesDes": "HABILITAR USUARIO",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "1",
+    "etaDesDes": "INGRESO ROL",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "1",
+    "etaDesDes": "ACUALIZAR ROL",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "1",
+    "etaDesDes": "ELIMINAR ROL",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "INGRESO  ETAPA",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ACTUALIZAR ETAPA",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ELIMINAR ETAPA",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "CARGAR CALENDARIO JUL",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ELIMINAR CALENDARIO JUL",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "INGRESO GERENCIA",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ACTUALIZAR GERENCIA",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ELIMINAR GERENCIA",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "INGRESO MONEDA",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ACTUALIZAR MONEDA",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ELIMINAR MONEDA",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "INGRESO PROVEEDOR/CLIENTE",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ACTUALIZAR PROVEEDOR/CLIENTE",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "DESHABILITAR PROVEEDOR/CLIENTE",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "INGRESO DIR PROVEEDOR/CLIENTE",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ELIMINAR DIR PROVEEDOR/CLIENTE",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "INGRESO COLOR",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ACTUALIZAR COLOR",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ELIMINAR COLOR",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "INGRESO GRUPO",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ACTUALIZAR GRUPO",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ELIMINAR GRUPO",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "INGRESO SUB-GRUPO",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ACTUALIZAR SUB-GRUPO",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ELIMINAR SUB-GRUPO",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "INGRESO MATERIAL",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ACTUALIZAR MATERIAL",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "INGRESO UNIDAD MEDIDA",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ACTUALIZAR UNIDAD MEDIDA",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ELIMINAR UNIDAD MEDIDA",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "INGRESO MAQUINA",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ACTUALIZAR MAQUINA",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ELIMINAR MAQUINA",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "INGRESO MOTIVO",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ACTUALIZAR MOTIVO",
+    "etaDesDel": "N"
+  },
+  {
+    "idEta": "2",
+    "etaDesDes": "ELIMINAR MOTIVO",
+    "etaDesDel": "N"
+  }
+]

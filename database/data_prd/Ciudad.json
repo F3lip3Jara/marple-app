@@ -1,0 +1,338 @@
+[
+ {
+  "PaiCod": "CL",
+  "RegCod": "01",
+  "CiuCod": "011",
+  "CiuDes": "IQUIQUE  "
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "01",
+  "CiuCod": "014",
+  "CiuDes": "TAMARUGAL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "02",
+  "CiuCod": "021",
+  "CiuDes": "ANTOFAGASTA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "02",
+  "CiuCod": "022",
+  "CiuDes": "EL LOA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "02",
+  "CiuCod": "023",
+  "CiuDes": "TOCOPILLA  "
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "03",
+  "CiuCod": "031",
+  "CiuDes": "COPIAPÓ  "
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "03",
+  "CiuCod": "032",
+  "CiuDes": "CHAÑARAL  "
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "03",
+  "CiuCod": "033",
+  "CiuDes": "HUASCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "04",
+  "CiuCod": "041",
+  "CiuDes": "ELQUI"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "04",
+  "CiuCod": "042",
+  "CiuDes": "CHOAPA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "04",
+  "CiuCod": "043",
+  "CiuDes": "LIMARI"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "051",
+  "CiuDes": "VALPARAÍSO  "
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "058",
+  "CiuDes": "MARGA MARGA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "052",
+  "CiuDes": "ISLA DE PASCUA  "
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "053",
+  "CiuDes": "LOS ANDES  "
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "054",
+  "CiuDes": "PETORCA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "055",
+  "CiuDes": "QUILLOTA  "
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "056",
+  "CiuDes": "SAN ANTONIO  "
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "057",
+  "CiuDes": "SAN FELIPE  "
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "061",
+  "CiuDes": "CACHAPOAL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "062",
+  "CiuDes": "CARDENAL CARO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "063",
+  "CiuDes": "COLCHAGUA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "071",
+  "CiuDes": "TALCA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "072",
+  "CiuDes": "CAUQUENES"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "073",
+  "CiuDes": "CURICO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "074",
+  "CiuDes": "LINARES  "
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "081",
+  "CiuDes": "CONCEPCIÓN  "
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "082",
+  "CiuDes": "ARAUCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "083",
+  "CiuDes": "BÍO- BÍO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "CiuDes": "CAUTÍN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "092",
+  "CiuDes": "MALLECO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "101",
+  "CiuDes": "LLANQUIHUE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "102",
+  "CiuDes": "CHILOE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "103",
+  "CiuDes": "OSORNO  "
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "104",
+  "CiuDes": "PALENA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "11",
+  "CiuCod": "111",
+  "CiuDes": "COIHAIQUE  "
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "11",
+  "CiuCod": "112",
+  "CiuDes": "AISÉN  "
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "11",
+  "CiuCod": "113",
+  "CiuDes": "CAPITAN PRAT"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "11",
+  "CiuCod": "114",
+  "CiuDes": "GENERAL CARRERA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "12",
+  "CiuCod": "121",
+  "CiuDes": "MAGALLANES"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "12",
+  "CiuCod": "122",
+  "CiuDes": "ANTÁRTICA CHILENA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "12",
+  "CiuCod": "123",
+  "CiuDes": "TIERRA DEL FUEGO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "12",
+  "CiuCod": "124",
+  "CiuDes": "ULTIMA ESPERANZA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "CiuDes": "SANTIAGO  "
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "132",
+  "CiuDes": "CORDILLERA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "133",
+  "CiuDes": "CHACABUCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "134",
+  "CiuDes": "MAIPO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "135",
+  "CiuDes": "MELIPILLA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "136",
+  "CiuDes": "TALAGANTE  "
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "14",
+  "CiuCod": "141",
+  "CiuDes": "VALDIVIA  "
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "14",
+  "CiuCod": "142",
+  "CiuDes": "RANCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "15",
+  "CiuCod": "151",
+  "CiuDes": "ARICA  "
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "15",
+  "CiuCod": "152",
+  "CiuDes": "PARINACOTA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "161",
+  "CiuDes": "DIGUILLÍN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "162",
+  "CiuDes": "ITATA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "163",
+  "CiuDes": "PUNILLA"
+ }
+]

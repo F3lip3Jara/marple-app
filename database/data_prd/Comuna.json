@@ -1,0 +1,2424 @@
+[
+ {
+  "PaiCod": "CL",
+  "RegCod": "01",
+  "CiuCod": "011",
+  "ComCod": "01101",
+  "ComDes": "IQUIQUE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "01",
+  "CiuCod": "014",
+  "ComCod": "01402",
+  "ComDes": "CAMIÑA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "01",
+  "CiuCod": "014",
+  "ComCod": "01403",
+  "ComDes": "COLCHANE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "01",
+  "CiuCod": "014",
+  "ComCod": "01404",
+  "ComDes": "HUARA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "01",
+  "CiuCod": "014",
+  "ComCod": "01405",
+  "ComDes": "PICA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "01",
+  "CiuCod": "014",
+  "ComCod": "01401",
+  "ComDes": "POZO ALMONTE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "01",
+  "CiuCod": "011",
+  "ComCod": "01107",
+  "ComDes": "ALTO HOSPICIO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "02",
+  "CiuCod": "021",
+  "ComCod": "02101",
+  "ComDes": "ANTOFAGASTA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "02",
+  "CiuCod": "021",
+  "ComCod": "02102",
+  "ComDes": "MEJILLONES"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "02",
+  "CiuCod": "021",
+  "ComCod": "02103",
+  "ComDes": "SIERRA GORDA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "02",
+  "CiuCod": "021",
+  "ComCod": "02104",
+  "ComDes": "TALTAL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "02",
+  "CiuCod": "022",
+  "ComCod": "02201",
+  "ComDes": "CALAMA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "02",
+  "CiuCod": "022",
+  "ComCod": "02202",
+  "ComDes": "OLLAGÜE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "02",
+  "CiuCod": "022",
+  "ComCod": "02203",
+  "ComDes": "SAN PEDRO DE ATACAMA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "02",
+  "CiuCod": "023",
+  "ComCod": "02301",
+  "ComDes": "TOCOPILLA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "02",
+  "CiuCod": "023",
+  "ComCod": "02302",
+  "ComDes": "MARÍA ELENA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "03",
+  "CiuCod": "031",
+  "ComCod": "03101",
+  "ComDes": "COPIAPÓ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "03",
+  "CiuCod": "031",
+  "ComCod": "03102",
+  "ComDes": "CALDERA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "03",
+  "CiuCod": "031",
+  "ComCod": "03103",
+  "ComDes": "TIERRA AMARILLA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "03",
+  "CiuCod": "032",
+  "ComCod": "03201",
+  "ComDes": "CHAÑARAL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "03",
+  "CiuCod": "032",
+  "ComCod": "03202",
+  "ComDes": "DIEGO DE ALMAGRO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "03",
+  "CiuCod": "033",
+  "ComCod": "03301",
+  "ComDes": "VALLENAR"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "03",
+  "CiuCod": "033",
+  "ComCod": "03302",
+  "ComDes": "ALTO DEL CARMEN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "03",
+  "CiuCod": "033",
+  "ComCod": "03303",
+  "ComDes": "FREIRINA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "03",
+  "CiuCod": "033",
+  "ComCod": "03304",
+  "ComDes": "HUASCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "04",
+  "CiuCod": "041",
+  "ComCod": "04101",
+  "ComDes": "LA SERENA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "04",
+  "CiuCod": "041",
+  "ComCod": "04102",
+  "ComDes": "COQUIMBO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "04",
+  "CiuCod": "041",
+  "ComCod": "04103",
+  "ComDes": "ANDACOLLO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "04",
+  "CiuCod": "041",
+  "ComCod": "04104",
+  "ComDes": "LA HIGUERA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "04",
+  "CiuCod": "041",
+  "ComCod": "04105",
+  "ComDes": "PAIGUANO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "04",
+  "CiuCod": "041",
+  "ComCod": "04106",
+  "ComDes": "VICUÑA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "04",
+  "CiuCod": "042",
+  "ComCod": "04201",
+  "ComDes": "ILLAPEL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "04",
+  "CiuCod": "042",
+  "ComCod": "04202",
+  "ComDes": "CANELA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "04",
+  "CiuCod": "042",
+  "ComCod": "04203",
+  "ComDes": "LOS VILOS"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "04",
+  "CiuCod": "042",
+  "ComCod": "04204",
+  "ComDes": "SALAMANCA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "04",
+  "CiuCod": "043",
+  "ComCod": "04301",
+  "ComDes": "OVALLE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "04",
+  "CiuCod": "043",
+  "ComCod": "04302",
+  "ComDes": "COMBARBALÁ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "04",
+  "CiuCod": "043",
+  "ComCod": "04303",
+  "ComDes": "MONTE PATRIA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "04",
+  "CiuCod": "043",
+  "ComCod": "04304",
+  "ComDes": "PUNITAQUI"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "04",
+  "CiuCod": "043",
+  "ComCod": "04305",
+  "ComDes": "RÍO HURTADO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "051",
+  "ComCod": "05101",
+  "ComDes": "VALPARAÍSO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "051",
+  "ComCod": "05102",
+  "ComDes": "CASABLANCA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "051",
+  "ComCod": "05103",
+  "ComDes": "CONCÓN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "051",
+  "ComCod": "05104",
+  "ComDes": "JUAN FERNÁNDEZ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "051",
+  "ComCod": "05105",
+  "ComDes": "PUCHUNCAVÍ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "058",
+  "ComCod": "05801",
+  "ComDes": "QUILPUÉ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "051",
+  "ComCod": "05107",
+  "ComDes": "QUINTERO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "058",
+  "ComCod": "05804",
+  "ComDes": "VILLA ALEMANA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "051",
+  "ComCod": "05109",
+  "ComDes": "VIÑA DEL MAR"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "052",
+  "ComCod": "05201",
+  "ComDes": "ISLA  DE PASCUA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "053",
+  "ComCod": "05301",
+  "ComDes": "LOS ANDES"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "053",
+  "ComCod": "05302",
+  "ComDes": "CALLE LARGA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "053",
+  "ComCod": "05303",
+  "ComDes": "RINCONADA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "053",
+  "ComCod": "05304",
+  "ComDes": "SAN ESTEBAN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "054",
+  "ComCod": "05401",
+  "ComDes": "LA LIGUA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "054",
+  "ComCod": "05402",
+  "ComDes": "CABILDO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "054",
+  "ComCod": "05403",
+  "ComDes": "PAPUDO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "054",
+  "ComCod": "05404",
+  "ComDes": "PETORCA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "054",
+  "ComCod": "05405",
+  "ComDes": "ZAPALLAR"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "055",
+  "ComCod": "05501",
+  "ComDes": "QUILLOTA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "055",
+  "ComCod": "05502",
+  "ComDes": "CALERA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "055",
+  "ComCod": "05503",
+  "ComDes": "HIJUELAS"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "055",
+  "ComCod": "05504",
+  "ComDes": "LA CRUZ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "058",
+  "ComCod": "05802",
+  "ComDes": "LIMACHE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "055",
+  "ComCod": "05506",
+  "ComDes": "NOGALES"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "058",
+  "ComCod": "05803",
+  "ComDes": "OLMUÉ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "056",
+  "ComCod": "05601",
+  "ComDes": "SAN ANTONIO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "056",
+  "ComCod": "05602",
+  "ComDes": "ALGARROBO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "056",
+  "ComCod": "05603",
+  "ComDes": "CARTAGENA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "056",
+  "ComCod": "05604",
+  "ComDes": "EL QUISCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "056",
+  "ComCod": "05605",
+  "ComDes": "EL TABO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "056",
+  "ComCod": "05606",
+  "ComDes": "SANTO DOMINGO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "057",
+  "ComCod": "05701",
+  "ComDes": "SAN FELIPE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "057",
+  "ComCod": "05702",
+  "ComDes": "CATEMU"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "057",
+  "ComCod": "05703",
+  "ComDes": "LLAILLAY"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "057",
+  "ComCod": "05704",
+  "ComDes": "PANQUEHUE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "057",
+  "ComCod": "05705",
+  "ComDes": "PUTAENDO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "CiuCod": "057",
+  "ComCod": "05706",
+  "ComDes": "SANTA MARÍA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "061",
+  "ComCod": "06101",
+  "ComDes": "RANCAGUA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "061",
+  "ComCod": "06102",
+  "ComDes": "CODEGUA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "061",
+  "ComCod": "06103",
+  "ComDes": "COINCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "061",
+  "ComCod": "06104",
+  "ComDes": "COLTAUCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "061",
+  "ComCod": "06105",
+  "ComDes": "DOÑIHUE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "061",
+  "ComCod": "06106",
+  "ComDes": "GRANEROS"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "061",
+  "ComCod": "06107",
+  "ComDes": "LAS CABRAS"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "061",
+  "ComCod": "06108",
+  "ComDes": "MACHALÍ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "061",
+  "ComCod": "06109",
+  "ComDes": "MALLOA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "061",
+  "ComCod": "06110",
+  "ComDes": "MOSTAZAL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "061",
+  "ComCod": "06111",
+  "ComDes": "OLIVAR"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "061",
+  "ComCod": "06112",
+  "ComDes": "PEUMO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "061",
+  "ComCod": "06113",
+  "ComDes": "PICLDEGUA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "061",
+  "ComCod": "06114",
+  "ComDes": "QUINTA DE TILCOCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "061",
+  "ComCod": "06115",
+  "ComDes": "RENGO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "061",
+  "ComCod": "06116",
+  "ComDes": "REQUÍNOA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "061",
+  "ComCod": "06117",
+  "ComDes": "SAN VICENTE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "062",
+  "ComCod": "06201",
+  "ComDes": "PICLLEMU"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "062",
+  "ComCod": "06202",
+  "ComDes": "LA ESTRELLA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "062",
+  "ComCod": "06203",
+  "ComDes": "LITUECHE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "062",
+  "ComCod": "06204",
+  "ComDes": "MARCLHUE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "062",
+  "ComCod": "06205",
+  "ComDes": "NAVIDAD"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "062",
+  "ComCod": "06206",
+  "ComDes": "PAREDONES"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "063",
+  "ComCod": "06301",
+  "ComDes": "SAN FERNANDO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "063",
+  "ComCod": "06302",
+  "ComDes": "CHÉPICA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "063",
+  "ComCod": "06303",
+  "ComDes": "CLMBARONGO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "063",
+  "ComCod": "06304",
+  "ComDes": "LOLOL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "063",
+  "ComCod": "06305",
+  "ComDes": "NANCAGUA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "063",
+  "ComCod": "06306",
+  "ComDes": "PALMILLA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "063",
+  "ComCod": "06307",
+  "ComDes": "PERALILLO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "063",
+  "ComCod": "06308",
+  "ComDes": "PLACILLA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "063",
+  "ComCod": "06309",
+  "ComDes": "PUMANQUE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "CiuCod": "063",
+  "ComCod": "06310",
+  "ComDes": "SANTA CRUZ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "071",
+  "ComCod": "07101",
+  "ComDes": "TALCA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "071",
+  "ComCod": "07102",
+  "ComDes": "CONSTITUCIÓN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "071",
+  "ComCod": "07103",
+  "ComDes": "CUREPTO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "071",
+  "ComCod": "07104",
+  "ComDes": "EMPEDRADO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "071",
+  "ComCod": "07105",
+  "ComDes": "MAULE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "071",
+  "ComCod": "07106",
+  "ComDes": "PELARCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "071",
+  "ComCod": "07107",
+  "ComDes": "PENCAHUE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "071",
+  "ComCod": "07108",
+  "ComDes": "RÍO CLARO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "071",
+  "ComCod": "07109",
+  "ComDes": "SAN CLEMENTE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "071",
+  "ComCod": "07110",
+  "ComDes": "SAN RAFAEL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "072",
+  "ComCod": "07201",
+  "ComDes": "CAUQUENES"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "072",
+  "ComCod": "07202",
+  "ComDes": "CHANCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "072",
+  "ComCod": "07203",
+  "ComDes": "PELLUHUE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "073",
+  "ComCod": "07301",
+  "ComDes": "CURICÓ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "073",
+  "ComCod": "07302",
+  "ComDes": "HUALAÑÉ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "073",
+  "ComCod": "07303",
+  "ComDes": "LICANTÉN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "073",
+  "ComCod": "07304",
+  "ComDes": "MOLINA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "073",
+  "ComCod": "07305",
+  "ComDes": "RAUCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "073",
+  "ComCod": "07306",
+  "ComDes": "ROMERAL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "073",
+  "ComCod": "07307",
+  "ComDes": "SAGRADA FAMILIA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "073",
+  "ComCod": "07308",
+  "ComDes": "TENO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "073",
+  "ComCod": "07309",
+  "ComDes": "VICHUQUÉN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "074",
+  "ComCod": "07401",
+  "ComDes": "LINARES"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "074",
+  "ComCod": "07402",
+  "ComDes": "COLBÚN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "074",
+  "ComCod": "07403",
+  "ComDes": "LONGAVÍ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "074",
+  "ComCod": "07404",
+  "ComDes": "PARRAL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "074",
+  "ComCod": "07405",
+  "ComDes": "RETIRO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "074",
+  "ComCod": "07406",
+  "ComDes": "SAN JAVIER"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "074",
+  "ComCod": "07407",
+  "ComDes": "VILLA ALEGRE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "CiuCod": "074",
+  "ComCod": "07408",
+  "ComDes": "YERBAS BUENAS"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "081",
+  "ComCod": "08101",
+  "ComDes": "CONCEPCIÓN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "081",
+  "ComCod": "08102",
+  "ComDes": "CORONEL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "081",
+  "ComCod": "08103",
+  "ComDes": "CLGUAYANTE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "081",
+  "ComCod": "08104",
+  "ComDes": "FLORIDA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "081",
+  "ComCod": "08105",
+  "ComDes": "HUALQUI"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "081",
+  "ComCod": "08106",
+  "ComDes": "LOTA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "081",
+  "ComCod": "08107",
+  "ComDes": "PENCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "081",
+  "ComCod": "08108",
+  "ComDes": "SAN PEDRO DE LA PAZ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "081",
+  "ComCod": "08109",
+  "ComDes": "SANTA JUANA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "081",
+  "ComCod": "08110",
+  "ComDes": "TALCAHUANO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "081",
+  "ComCod": "08111",
+  "ComDes": "TOMÉ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "081",
+  "ComCod": "08112",
+  "ComDes": "HUALPÉN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "082",
+  "ComCod": "08201",
+  "ComDes": "LEBU"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "082",
+  "ComCod": "08202",
+  "ComDes": "ARAUCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "082",
+  "ComCod": "08203",
+  "ComDes": "CAÑETE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "082",
+  "ComCod": "08204",
+  "ComDes": "CONTULMO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "082",
+  "ComCod": "08205",
+  "ComDes": "CURANILAHUE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "082",
+  "ComCod": "08206",
+  "ComDes": "LOS ÁLAMOS"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "082",
+  "ComCod": "08207",
+  "ComDes": "TIRÚA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "083",
+  "ComCod": "08301",
+  "ComDes": "LOS ÁNGELES"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "083",
+  "ComCod": "08302",
+  "ComDes": "ANTUCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "083",
+  "ComCod": "08303",
+  "ComDes": "CABRERO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "083",
+  "ComCod": "08304",
+  "ComDes": "LAJA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "083",
+  "ComCod": "08305",
+  "ComDes": "MULCHÉN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "083",
+  "ComCod": "08306",
+  "ComDes": "NACIMIENTO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "083",
+  "ComCod": "08307",
+  "ComDes": "NEGRETE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "083",
+  "ComCod": "08308",
+  "ComDes": "QUILACO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "083",
+  "ComCod": "08309",
+  "ComDes": "QUILLECO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "083",
+  "ComCod": "08310",
+  "ComDes": "SAN ROSENDO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "083",
+  "ComCod": "08311",
+  "ComDes": "SANTA BÁRBARA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "083",
+  "ComCod": "08312",
+  "ComDes": "TUCAPEL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "083",
+  "ComCod": "08313",
+  "ComDes": "YUMBEL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "CiuCod": "083",
+  "ComCod": "08314",
+  "ComDes": "ALTO BIOBÍO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "ComCod": "09101",
+  "ComDes": "TEMUCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "ComCod": "09102",
+  "ComDes": "CARAHUE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "ComCod": "09103",
+  "ComDes": "CUNCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "ComCod": "09104",
+  "ComDes": "CURARREHUE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "ComCod": "09105",
+  "ComDes": "FREIRE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "ComCod": "09106",
+  "ComDes": "GALVARINO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "ComCod": "09107",
+  "ComDes": "GORBEA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "ComCod": "09108",
+  "ComDes": "LAUTARO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "ComCod": "09109",
+  "ComDes": "LONCOCHE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "ComCod": "09110",
+  "ComDes": "MELIPEUCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "ComCod": "09111",
+  "ComDes": "NUEVA IMPERIAL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "ComCod": "09112",
+  "ComDes": "PADRE LAS CASAS"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "ComCod": "09113",
+  "ComDes": "PERQUENCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "ComCod": "09114",
+  "ComDes": "PITRUFQUÉN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "ComCod": "09115",
+  "ComDes": "PUCÓN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "ComCod": "09116",
+  "ComDes": "SAAVEDRA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "ComCod": "09117",
+  "ComDes": "TEODORO SCHMIDT"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "ComCod": "09118",
+  "ComDes": "TOLTÉN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "ComCod": "09119",
+  "ComDes": "VILCÚN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "ComCod": "09120",
+  "ComDes": "VILLARRICA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "091",
+  "ComCod": "09121",
+  "ComDes": "CHOLCHOL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "092",
+  "ComCod": "09201",
+  "ComDes": "ANGOL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "092",
+  "ComCod": "09202",
+  "ComDes": "COLLIPULLI"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "092",
+  "ComCod": "09203",
+  "ComDes": "CURACAUTÍN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "092",
+  "ComCod": "09204",
+  "ComDes": "ERCILLA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "092",
+  "ComCod": "09205",
+  "ComDes": "LONQUIMAY"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "092",
+  "ComCod": "09206",
+  "ComDes": "LOS SAUCES"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "092",
+  "ComCod": "09207",
+  "ComDes": "LUMACO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "092",
+  "ComCod": "09208",
+  "ComDes": "PURÉN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "092",
+  "ComCod": "09209",
+  "ComDes": "RENAICO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "092",
+  "ComCod": "09210",
+  "ComDes": "TRAIGUÉN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "CiuCod": "092",
+  "ComCod": "09211",
+  "ComDes": "VICTORIA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "101",
+  "ComCod": "10101",
+  "ComDes": "PUERTO MONTT"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "101",
+  "ComCod": "10102",
+  "ComDes": "CALBUCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "101",
+  "ComCod": "10103",
+  "ComDes": "COCHAMÓ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "101",
+  "ComCod": "10104",
+  "ComDes": "FRESIA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "101",
+  "ComCod": "10105",
+  "ComDes": "FRUTILLAR"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "101",
+  "ComCod": "10106",
+  "ComDes": "LOS MUERMOS"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "101",
+  "ComCod": "10107",
+  "ComDes": "LLANQUIHUE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "101",
+  "ComCod": "10108",
+  "ComDes": "MAULLÍN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "101",
+  "ComCod": "10109",
+  "ComDes": "PUERTO VARAS"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "102",
+  "ComCod": "10201",
+  "ComDes": "CASTRO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "102",
+  "ComCod": "10202",
+  "ComDes": "ANCUD"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "102",
+  "ComCod": "10203",
+  "ComDes": "CHONCL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "102",
+  "ComCod": "10204",
+  "ComDes": "CURACO DE VÉLEZ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "102",
+  "ComCod": "10205",
+  "ComDes": "DALCAHUE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "102",
+  "ComCod": "10206",
+  "ComDes": "PUQUELDÓN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "102",
+  "ComCod": "10207",
+  "ComDes": "QUEILÉN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "102",
+  "ComCod": "10208",
+  "ComDes": "QUELLÓN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "102",
+  "ComCod": "10209",
+  "ComDes": "QUEMCL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "102",
+  "ComCod": "10210",
+  "ComDes": "QUINCHAO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "103",
+  "ComCod": "10301",
+  "ComDes": "OSORNO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "103",
+  "ComCod": "10302",
+  "ComDes": "PUERTO OCTAY"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "103",
+  "ComCod": "10303",
+  "ComDes": "PURRANQUE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "103",
+  "ComCod": "10304",
+  "ComDes": "PUYEHUE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "103",
+  "ComCod": "10305",
+  "ComDes": "RÍO NEGRO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "103",
+  "ComCod": "10306",
+  "ComDes": "SAN JUAN DE LA COSTA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "103",
+  "ComCod": "10307",
+  "ComDes": "SAN PABLO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "104",
+  "ComCod": "10401",
+  "ComDes": "CHAITÉN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "104",
+  "ComCod": "10402",
+  "ComDes": "FUTALEUFÚ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "104",
+  "ComCod": "10403",
+  "ComDes": "HUALAIHUÉ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "10",
+  "CiuCod": "104",
+  "ComCod": "10404",
+  "ComDes": "PALENA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "11",
+  "CiuCod": "111",
+  "ComCod": "11101",
+  "ComDes": "COIHAIQUE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "11",
+  "CiuCod": "111",
+  "ComCod": "11102",
+  "ComDes": "LAGO VERDE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "11",
+  "CiuCod": "112",
+  "ComCod": "11201",
+  "ComDes": "AISÉN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "11",
+  "CiuCod": "112",
+  "ComCod": "11202",
+  "ComDes": "CISNES"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "11",
+  "CiuCod": "112",
+  "ComCod": "11203",
+  "ComDes": "GUAITECAS"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "11",
+  "CiuCod": "113",
+  "ComCod": "11301",
+  "ComDes": "COCHRANE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "11",
+  "CiuCod": "113",
+  "ComCod": "11302",
+  "ComDes": "O'HIGGINS"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "11",
+  "CiuCod": "113",
+  "ComCod": "11303",
+  "ComDes": "TORTEL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "11",
+  "CiuCod": "114",
+  "ComCod": "11401",
+  "ComDes": "CLLE CLCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "11",
+  "CiuCod": "114",
+  "ComCod": "11402",
+  "ComDes": "RÍO IBÁÑEZ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "12",
+  "CiuCod": "121",
+  "ComCod": "12101",
+  "ComDes": "PUNTA ARENAS"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "12",
+  "CiuCod": "121",
+  "ComCod": "12102",
+  "ComDes": "LAGUNA BLANCA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "12",
+  "CiuCod": "121",
+  "ComCod": "12103",
+  "ComDes": "RÍO VERDE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "12",
+  "CiuCod": "121",
+  "ComCod": "12104",
+  "ComDes": "SAN GREGORIO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "12",
+  "CiuCod": "122",
+  "ComCod": "12201",
+  "ComDes": "CABO DE HORNOS"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "12",
+  "CiuCod": "122",
+  "ComCod": "12202",
+  "ComDes": "ANTÁRTICA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "12",
+  "CiuCod": "123",
+  "ComCod": "12301",
+  "ComDes": "PORVENIR"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "12",
+  "CiuCod": "123",
+  "ComCod": "12302",
+  "ComDes": "PRIMAVERA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "12",
+  "CiuCod": "123",
+  "ComCod": "12303",
+  "ComDes": "TIMAUKEL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "12",
+  "CiuCod": "124",
+  "ComCod": "12401",
+  "ComDes": "NATALES"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "12",
+  "CiuCod": "124",
+  "ComCod": "12402",
+  "ComDes": "TORRES DEL PAINE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13101",
+  "ComDes": "SANTIAGO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13102",
+  "ComDes": "CERRILLOS"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13103",
+  "ComDes": "CERRO NAVIA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13104",
+  "ComDes": "CONCHALÍ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13105",
+  "ComDes": "EL BOSQUE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13106",
+  "ComDes": "ESTACIÓN CENTRAL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13107",
+  "ComDes": "HUECHURABA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13108",
+  "ComDes": "INDEPENDENCIA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13109",
+  "ComDes": "LA CISTERNA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13110",
+  "ComDes": "LA FLORIDA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13111",
+  "ComDes": "LA GRANJA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13112",
+  "ComDes": "LA PINTANA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13113",
+  "ComDes": "LA REINA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13114",
+  "ComDes": "LAS CONDES"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13115",
+  "ComDes": "LO BARNECHEA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13116",
+  "ComDes": "LO ESPEJO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13117",
+  "ComDes": "LO PRADO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13118",
+  "ComDes": "MACUL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13119",
+  "ComDes": "MAIPÚ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13120",
+  "ComDes": "ÑUÑOA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13121",
+  "ComDes": "PEDRO AGUIRRE CERDA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13122",
+  "ComDes": "PEÑALOLÉN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13123",
+  "ComDes": "PROVIDENCIA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13124",
+  "ComDes": "PUDAHUEL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13125",
+  "ComDes": "QUILICURA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13126",
+  "ComDes": "QUINTA NORMAL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13127",
+  "ComDes": "RECOLETA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13128",
+  "ComDes": "RENCA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13129",
+  "ComDes": "SAN JOAQUÍN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13130",
+  "ComDes": "SAN MIGUEL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13131",
+  "ComDes": "SAN RAMÓN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "131",
+  "ComCod": "13132",
+  "ComDes": "VITACURA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "132",
+  "ComCod": "13201",
+  "ComDes": "PUENTE ALTO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "132",
+  "ComCod": "13202",
+  "ComDes": "PIRQUE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "132",
+  "ComCod": "13203",
+  "ComDes": "SAN JOSÉ DE MAIPO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "133",
+  "ComCod": "13301",
+  "ComDes": "COLINA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "133",
+  "ComCod": "13302",
+  "ComDes": "LAMPA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "133",
+  "ComCod": "13303",
+  "ComDes": "TILTIL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "134",
+  "ComCod": "13401",
+  "ComDes": "SAN BERNARDO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "134",
+  "ComCod": "13402",
+  "ComDes": "BUIN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "134",
+  "ComCod": "13403",
+  "ComDes": "CALERA DE TANGO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "134",
+  "ComCod": "13404",
+  "ComDes": "PAINE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "135",
+  "ComCod": "13501",
+  "ComDes": "MELIPILLA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "135",
+  "ComCod": "13502",
+  "ComDes": "ALHUÉ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "135",
+  "ComCod": "13503",
+  "ComDes": "CURACAVÍ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "135",
+  "ComCod": "13504",
+  "ComDes": "MARÍA PINTO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "135",
+  "ComCod": "13505",
+  "ComDes": "SAN PEDRO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "136",
+  "ComCod": "13601",
+  "ComDes": "TALAGANTE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "136",
+  "ComCod": "13602",
+  "ComDes": "EL MONTE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "136",
+  "ComCod": "13603",
+  "ComDes": "ISLA DE MAIPO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "136",
+  "ComCod": "13604",
+  "ComDes": "PADRE HURTADO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "13",
+  "CiuCod": "136",
+  "ComCod": "13605",
+  "ComDes": "PEÑAFLOR"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "14",
+  "CiuCod": "141",
+  "ComCod": "14101",
+  "ComDes": "VALDIVIA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "14",
+  "CiuCod": "141",
+  "ComCod": "14102",
+  "ComDes": "CORRAL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "14",
+  "CiuCod": "142",
+  "ComCod": "14202",
+  "ComDes": "FUTRONO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "14",
+  "CiuCod": "142",
+  "ComCod": "14201",
+  "ComDes": "LA UNIÓN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "14",
+  "CiuCod": "142",
+  "ComCod": "14203",
+  "ComDes": "LAGO RANCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "14",
+  "CiuCod": "141",
+  "ComCod": "14103",
+  "ComDes": "LANCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "14",
+  "CiuCod": "141",
+  "ComCod": "14104",
+  "ComDes": "LOS LAGOS"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "14",
+  "CiuCod": "141",
+  "ComCod": "14105",
+  "ComDes": "MÁFIL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "14",
+  "CiuCod": "141",
+  "ComCod": "14106",
+  "ComDes": "MARIQUINA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "14",
+  "CiuCod": "141",
+  "ComCod": "14107",
+  "ComDes": "PAILLACO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "14",
+  "CiuCod": "141",
+  "ComCod": "14108",
+  "ComDes": "PANGUIPULLI"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "14",
+  "CiuCod": "142",
+  "ComCod": "14204",
+  "ComDes": "RÍO BUENO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "15",
+  "CiuCod": "151",
+  "ComCod": "15101",
+  "ComDes": "ARICA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "15",
+  "CiuCod": "151",
+  "ComCod": "15102",
+  "ComDes": "CAMARONES"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "15",
+  "CiuCod": "152",
+  "ComCod": "15201",
+  "ComDes": "PUTRE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "15",
+  "CiuCod": "152",
+  "ComCod": "15202",
+  "ComDes": "GENERAL LAGOS"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "161",
+  "ComCod": "16101",
+  "ComDes": "CLLLÁN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "161",
+  "ComCod": "16102",
+  "ComDes": "BULNES"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "162",
+  "ComCod": "16202",
+  "ComDes": "COBQUECURA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "162",
+  "ComCod": "16203",
+  "ComDes": "COELEMU"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "163",
+  "ComCod": "16302",
+  "ComDes": "COIHUECO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "161",
+  "ComCod": "16103",
+  "ComDes": "CLLLÁN VIEJO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "161",
+  "ComCod": "16104",
+  "ComDes": "EL CARMEN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "162",
+  "ComCod": "16204",
+  "ComDes": "NINHUE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "163",
+  "ComCod": "16303",
+  "ComDes": "ÑIQUÉN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "161",
+  "ComCod": "16105",
+  "ComDes": "PEMUCO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "161",
+  "ComCod": "16106",
+  "ComDes": "PINTO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "162",
+  "ComCod": "16205",
+  "ComDes": "PORTEZUELO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "161",
+  "ComCod": "16107",
+  "ComDes": "QUILLÓN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "162",
+  "ComCod": "16201",
+  "ComDes": "QUIRIHUE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "162",
+  "ComCod": "16206",
+  "ComDes": "RÁNQUIL"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "163",
+  "ComCod": "16301",
+  "ComDes": "SAN CARLOS"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "163",
+  "ComCod": "16304",
+  "ComDes": "SAN FABIÁN"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "161",
+  "ComCod": "16108",
+  "ComDes": "SAN IGNACIO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "163",
+  "ComCod": "16305",
+  "ComDes": "SAN NICOLÁS"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "162",
+  "ComCod": "16207",
+  "ComDes": "TREGUACO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "16",
+  "CiuCod": "161",
+  "ComCod": "16109",
+  "ComDes": "YUNGAY"
+ }
+]

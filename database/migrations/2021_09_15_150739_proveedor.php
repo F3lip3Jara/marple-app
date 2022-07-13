@@ -17,11 +17,11 @@ class Proveedor extends Migration
             $table->bigIncrements('idPrv');
             $table->string('prvRut');
             $table->string('prvNom');
-            $table->string('prvNom2');
-            $table->string('prvGiro');
-            $table->string('prvNum');
-            $table->string('prvDir');
-            $table->string('prvTel');
+            $table->string('prvNom2')->nullable();
+            $table->string('prvGiro')->nullable();
+            $table->string('prvNum')->nullable();
+            $table->string('prvDir')->nullable();
+            $table->string('prvTel')->nullable();
             $table->char('prvCli');
             $table->char('prvPrv');
             $table->string('prvMail')->nullable();

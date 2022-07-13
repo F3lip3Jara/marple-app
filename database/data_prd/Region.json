@@ -1,0 +1,82 @@
+[
+ {
+  "PaiCod": "CL",
+  "RegCod": "01",
+  "RegDes": "TARAPACA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "02",
+  "RegDes": "ANTOFAGASTA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "03",
+  "RegDes": "ATACAMA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "04",
+  "RegDes": "COQUIMBO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "05",
+  "RegDes": "VALPARAISO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "06",
+  "RegDes": "LIBERTADOR GRAL BERNARDO OHIGGINS"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "07",
+  "RegDes": "MAULE"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "08",
+  "RegDes": "BIO BIO"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": "09",
+  "RegDes": "ARAUCANIA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": 10,
+  "RegDes": "LOS LAGOS"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": 11,
+  "RegDes": "AYSEN Y GRAL CARLOS IBAÑEZ"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": 12,
+  "RegDes": "MAGALLANES"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": 13,
+  "RegDes": "METROPOLITANA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": 14,
+  "RegDes": "LOS RIOS"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": 15,
+  "RegDes": "ARICA Y PARINACOTA"
+ },
+ {
+  "PaiCod": "CL",
+  "RegCod": 16,
+  "RegDes": "ÑUBLE"
+ }
+]

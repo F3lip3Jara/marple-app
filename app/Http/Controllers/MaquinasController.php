@@ -22,11 +22,9 @@ class MaquinasController extends Controller
                 }
             if($id > 0 ){
                $maquinas = Maquinas::select('*')
-                ->join('etapasUser', 'maquinas.idEta', '=', 'etapasuser.idEta')
+                ->join('etapasUser', 'maquinas.idEta', '=', 'etapasUser.idEta')
                 ->get();
-
                 return response()->json($maquinas , 200);
-
             }else {
                 return response()->json('error' , 203);
             }
@@ -38,7 +36,6 @@ class MaquinasController extends Controller
             $id     = 0;
             $header = $request->header('access-token');
             $val    = User::select('token' , 'id', 'activado')->where('token' , $header)->get();
-
             if($header == ''){
                 return response()->json('error' , 203);
             }else{

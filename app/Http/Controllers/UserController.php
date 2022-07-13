@@ -102,7 +102,8 @@ class UserController extends Controller
 
             }
             if($id > 0 ){
-                return  viewUser::select('name', 'imgName','email','rolDes')->where('token',$header)->get();
+                $datos = viewUser::select('name', 'imgName','rolDes')->where('token',$header)->get();
+                return response()->json($datos , 200)  ;
              }else {
                 return response()->json("error" , 203);
 

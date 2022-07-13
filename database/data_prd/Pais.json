@@ -1,0 +1,946 @@
+[
+ {
+  "Cod_Pais": "AF",
+  "Pais_Des": "AFGANISTÁN"
+ },
+ {
+  "Cod_Pais": "AL",
+  "Pais_Des": "ALBANIA"
+ },
+ {
+  "Cod_Pais": "DE",
+  "Pais_Des": "ALEMANIA"
+ },
+ {
+  "Cod_Pais": "AD",
+  "Pais_Des": "ANDORRA"
+ },
+ {
+  "Cod_Pais": "AO",
+  "Pais_Des": "ANGOLA"
+ },
+ {
+  "Cod_Pais": "AI",
+  "Pais_Des": "ANGUILA"
+ },
+ {
+  "Cod_Pais": "AQ",
+  "Pais_Des": "ANTÁRTIDA"
+ },
+ {
+  "Cod_Pais": "AG",
+  "Pais_Des": "ANTIGUA Y BARBUDA"
+ },
+ {
+  "Cod_Pais": "AN",
+  "Pais_Des": "ANTILLAS NEERLANDESAS"
+ },
+ {
+  "Cod_Pais": "SA",
+  "Pais_Des": "ARABIA SAUDITA"
+ },
+ {
+  "Cod_Pais": "DZ",
+  "Pais_Des": "ARGEL"
+ },
+ {
+  "Cod_Pais": "AR",
+  "Pais_Des": "ARGENTINA"
+ },
+ {
+  "Cod_Pais": "AM",
+  "Pais_Des": "ARMENIA"
+ },
+ {
+  "Cod_Pais": "AW",
+  "Pais_Des": "ARUBA"
+ },
+ {
+  "Cod_Pais": "AU",
+  "Pais_Des": "AUSTRALIA"
+ },
+ {
+  "Cod_Pais": "AT",
+  "Pais_Des": "AUSTRIA"
+ },
+ {
+  "Cod_Pais": "AZ",
+  "Pais_Des": "AZERBAIYÁN"
+ },
+ {
+  "Cod_Pais": "BS",
+  "Pais_Des": "BAHAMAS"
+ },
+ {
+  "Cod_Pais": "BH",
+  "Pais_Des": "BAHRÉIN"
+ },
+ {
+  "Cod_Pais": "BD",
+  "Pais_Des": "BANGLADESH"
+ },
+ {
+  "Cod_Pais": "BB",
+  "Pais_Des": "BARBADOS"
+ },
+ {
+  "Cod_Pais": "BY",
+  "Pais_Des": "BELARÚS"
+ },
+ {
+  "Cod_Pais": "BE",
+  "Pais_Des": "BÉLGICA"
+ },
+ {
+  "Cod_Pais": "BZ",
+  "Pais_Des": "BELICE"
+ },
+ {
+  "Cod_Pais": "BJ",
+  "Pais_Des": "BENIN"
+ },
+ {
+  "Cod_Pais": "BM",
+  "Pais_Des": "BERMUDAS"
+ },
+ {
+  "Cod_Pais": "BT",
+  "Pais_Des": "BHUTÁN"
+ },
+ {
+  "Cod_Pais": "BO",
+  "Pais_Des": "BOLIVIA"
+ },
+ {
+  "Cod_Pais": "BA",
+  "Pais_Des": "BOSNIA Y HERZEGOVINA"
+ },
+ {
+  "Cod_Pais": "BW",
+  "Pais_Des": "BOTSUANA"
+ },
+ {
+  "Cod_Pais": "BR",
+  "Pais_Des": "BRASIL"
+ },
+ {
+  "Cod_Pais": "BN",
+  "Pais_Des": "BRUNÉI"
+ },
+ {
+  "Cod_Pais": "BG",
+  "Pais_Des": "BULGARIA"
+ },
+ {
+  "Cod_Pais": "BF",
+  "Pais_Des": "BURKINA FASO"
+ },
+ {
+  "Cod_Pais": "BI",
+  "Pais_Des": "BURUNDI"
+ },
+ {
+  "Cod_Pais": "CV",
+  "Pais_Des": "CABO VERDE"
+ },
+ {
+  "Cod_Pais": "KH",
+  "Pais_Des": "CAMBOYA"
+ },
+ {
+  "Cod_Pais": "CM",
+  "Pais_Des": "CAMERÚN"
+ },
+ {
+  "Cod_Pais": "CA",
+  "Pais_Des": "CANADÁ"
+ },
+ {
+  "Cod_Pais": "TD",
+  "Pais_Des": "CHAD"
+ },
+ {
+  "Cod_Pais": "CL",
+  "Pais_Des": "CHILE"
+ },
+ {
+  "Cod_Pais": "CN",
+  "Pais_Des": "CHINA"
+ },
+ {
+  "Cod_Pais": "CY",
+  "Pais_Des": "CHIPRE"
+ },
+ {
+  "Cod_Pais": "VA",
+  "Pais_Des": "CIUDAD DEL VATICANO"
+ },
+ {
+  "Cod_Pais": "CO",
+  "Pais_Des": "COLOMBIA"
+ },
+ {
+  "Cod_Pais": "KM",
+  "Pais_Des": "COMOROS"
+ },
+ {
+  "Cod_Pais": "CG",
+  "Pais_Des": "CONGO"
+ },
+ {
+  "Cod_Pais": "KP",
+  "Pais_Des": "COREA DEL NORTE"
+ },
+ {
+  "Cod_Pais": "KR",
+  "Pais_Des": "COREA DEL SUR"
+ },
+ {
+  "Cod_Pais": "CI",
+  "Pais_Des": "COSTA DE MARFIL"
+ },
+ {
+  "Cod_Pais": "CR",
+  "Pais_Des": "COSTA RICA"
+ },
+ {
+  "Cod_Pais": "HR",
+  "Pais_Des": "CROACIA"
+ },
+ {
+  "Cod_Pais": "CU",
+  "Pais_Des": "CUBA"
+ },
+ {
+  "Cod_Pais": "DK",
+  "Pais_Des": "DINAMARCA"
+ },
+ {
+  "Cod_Pais": "DM",
+  "Pais_Des": "DOMÍNICA"
+ },
+ {
+  "Cod_Pais": "EC",
+  "Pais_Des": "ECUADOR"
+ },
+ {
+  "Cod_Pais": "EG",
+  "Pais_Des": "EGIPTO"
+ },
+ {
+  "Cod_Pais": "SV",
+  "Pais_Des": "EL SALVADOR"
+ },
+ {
+  "Cod_Pais": "AE",
+  "Pais_Des": "EMIRATOS ÁRABES UNIDOS"
+ },
+ {
+  "Cod_Pais": "ER",
+  "Pais_Des": "ERITREA"
+ },
+ {
+  "Cod_Pais": "SK",
+  "Pais_Des": "ESLOVAQUIA"
+ },
+ {
+  "Cod_Pais": "SI",
+  "Pais_Des": "ESLOVENIA"
+ },
+ {
+  "Cod_Pais": "ES",
+  "Pais_Des": "ESPAÑA"
+ },
+ {
+  "Cod_Pais": "US",
+  "Pais_Des": "ESTADOS UNIDOS DE AMÉRICA"
+ },
+ {
+  "Cod_Pais": "EE",
+  "Pais_Des": "ESTONIA"
+ },
+ {
+  "Cod_Pais": "ET",
+  "Pais_Des": "ETIOPÍA"
+ },
+ {
+  "Cod_Pais": "FJ",
+  "Pais_Des": "FIJI"
+ },
+ {
+  "Cod_Pais": "PH",
+  "Pais_Des": "FILIPINAS"
+ },
+ {
+  "Cod_Pais": "FI",
+  "Pais_Des": "FINLANDIA"
+ },
+ {
+  "Cod_Pais": "FR",
+  "Pais_Des": "FRANCIA"
+ },
+ {
+  "Cod_Pais": "GA",
+  "Pais_Des": "GABÓN"
+ },
+ {
+  "Cod_Pais": "GM",
+  "Pais_Des": "GAMBIA"
+ },
+ {
+  "Cod_Pais": "GE",
+  "Pais_Des": "GEORGIA"
+ },
+ {
+  "Cod_Pais": "GH",
+  "Pais_Des": "GHANA"
+ },
+ {
+  "Cod_Pais": "GI",
+  "Pais_Des": "GIBRALTAR"
+ },
+ {
+  "Cod_Pais": "GD",
+  "Pais_Des": "GRANADA"
+ },
+ {
+  "Cod_Pais": "GR",
+  "Pais_Des": "GRECIA"
+ },
+ {
+  "Cod_Pais": "GL",
+  "Pais_Des": "GROENLANDIA"
+ },
+ {
+  "Cod_Pais": "GP",
+  "Pais_Des": "GUADALUPE"
+ },
+ {
+  "Cod_Pais": "GU",
+  "Pais_Des": "GUAM"
+ },
+ {
+  "Cod_Pais": "GT",
+  "Pais_Des": "GUATEMALA"
+ },
+ {
+  "Cod_Pais": "GY",
+  "Pais_Des": "GUAYANA"
+ },
+ {
+  "Cod_Pais": "GF",
+  "Pais_Des": "GUAYANA FRANCESA"
+ },
+ {
+  "Cod_Pais": "GG",
+  "Pais_Des": "GUERNSEY"
+ },
+ {
+  "Cod_Pais": "GN",
+  "Pais_Des": "GUINEA"
+ },
+ {
+  "Cod_Pais": "GQ",
+  "Pais_Des": "GUINEA ECUATORIAL"
+ },
+ {
+  "Cod_Pais": "GW",
+  "Pais_Des": "GUINEA-BISSAU"
+ },
+ {
+  "Cod_Pais": "HT",
+  "Pais_Des": "HAITÍ"
+ },
+ {
+  "Cod_Pais": "HN",
+  "Pais_Des": "HONDURAS"
+ },
+ {
+  "Cod_Pais": "HK",
+  "Pais_Des": "HONG KONG"
+ },
+ {
+  "Cod_Pais": "HU",
+  "Pais_Des": "HUNGRÍA"
+ },
+ {
+  "Cod_Pais": "IN",
+  "Pais_Des": "INDIA"
+ },
+ {
+  "Cod_Pais": "ID",
+  "Pais_Des": "INDONESIA"
+ },
+ {
+  "Cod_Pais": "IQ",
+  "Pais_Des": "IRAK"
+ },
+ {
+  "Cod_Pais": "IR",
+  "Pais_Des": "IRÁN"
+ },
+ {
+  "Cod_Pais": "IE",
+  "Pais_Des": "IRLANDA"
+ },
+ {
+  "Cod_Pais": "BV",
+  "Pais_Des": "ISLA BOUVET"
+ },
+ {
+  "Cod_Pais": "IM",
+  "Pais_Des": "ISLA DE MAN"
+ },
+ {
+  "Cod_Pais": "IS",
+  "Pais_Des": "ISLANDIA"
+ },
+ {
+  "Cod_Pais": "AX",
+  "Pais_Des": "ISLAS ÁLAND"
+ },
+ {
+  "Cod_Pais": "KY",
+  "Pais_Des": "ISLAS CAIMÁN"
+ },
+ {
+  "Cod_Pais": "CX",
+  "Pais_Des": "ISLAS CHRISTMAS"
+ },
+ {
+  "Cod_Pais": "CC",
+  "Pais_Des": "ISLAS COCOS"
+ },
+ {
+  "Cod_Pais": "CK",
+  "Pais_Des": "ISLAS COOK"
+ },
+ {
+  "Cod_Pais": "FO",
+  "Pais_Des": "ISLAS FAROE"
+ },
+ {
+  "Cod_Pais": "HM",
+  "Pais_Des": "ISLAS HEARD Y MCDONALD"
+ },
+ {
+  "Cod_Pais": "FK",
+  "Pais_Des": "ISLAS MALVINAS"
+ },
+ {
+  "Cod_Pais": "MH",
+  "Pais_Des": "ISLAS MARSHALL"
+ },
+ {
+  "Cod_Pais": "NF",
+  "Pais_Des": "ISLAS NORKFOLK"
+ },
+ {
+  "Cod_Pais": "PW",
+  "Pais_Des": "ISLAS PALAOS"
+ },
+ {
+  "Cod_Pais": "PN",
+  "Pais_Des": "ISLAS PITCAIRN"
+ },
+ {
+  "Cod_Pais": "SB",
+  "Pais_Des": "ISLAS SOLOMÓN"
+ },
+ {
+  "Cod_Pais": "SJ",
+  "Pais_Des": "ISLAS SVALBARD Y JAN MAYEN"
+ },
+ {
+  "Cod_Pais": "TC",
+  "Pais_Des": "ISLAS TURCAS Y CAICOS"
+ },
+ {
+  "Cod_Pais": "VG",
+  "Pais_Des": "ISLAS VÍRGENES BRITÁNICAS"
+ },
+ {
+  "Cod_Pais": "VI",
+  "Pais_Des": "ISLAS VÍRGENES DE LOS EEUU"
+ },
+ {
+  "Cod_Pais": "IL",
+  "Pais_Des": "ISRAEL"
+ },
+ {
+  "Cod_Pais": "IT",
+  "Pais_Des": "ITALIA"
+ },
+ {
+  "Cod_Pais": "JM",
+  "Pais_Des": "JAMAICA"
+ },
+ {
+  "Cod_Pais": "JP",
+  "Pais_Des": "JAPÓN"
+ },
+ {
+  "Cod_Pais": "JE",
+  "Pais_Des": "JERSEY"
+ },
+ {
+  "Cod_Pais": "JO",
+  "Pais_Des": "JORDANIA"
+ },
+ {
+  "Cod_Pais": "KZ",
+  "Pais_Des": "KAZAJSTÁN"
+ },
+ {
+  "Cod_Pais": "KE",
+  "Pais_Des": "KENIA"
+ },
+ {
+  "Cod_Pais": "KG",
+  "Pais_Des": "KIRGUISTÁN"
+ },
+ {
+  "Cod_Pais": "KI",
+  "Pais_Des": "KIRIBATI"
+ },
+ {
+  "Cod_Pais": "KW",
+  "Pais_Des": "KUWAIT"
+ },
+ {
+  "Cod_Pais": "LA",
+  "Pais_Des": "LAOS"
+ },
+ {
+  "Cod_Pais": "LS",
+  "Pais_Des": "LESOTHO"
+ },
+ {
+  "Cod_Pais": "LV",
+  "Pais_Des": "LETONIA"
+ },
+ {
+  "Cod_Pais": "LB",
+  "Pais_Des": "LÍBANO"
+ },
+ {
+  "Cod_Pais": "LR",
+  "Pais_Des": "LIBERIA"
+ },
+ {
+  "Cod_Pais": "LY",
+  "Pais_Des": "LIBIA"
+ },
+ {
+  "Cod_Pais": "LI",
+  "Pais_Des": "LIECHTENSTEIN"
+ },
+ {
+  "Cod_Pais": "LT",
+  "Pais_Des": "LITUANIA"
+ },
+ {
+  "Cod_Pais": "LU",
+  "Pais_Des": "LUXEMBURGO"
+ },
+ {
+  "Cod_Pais": "MO",
+  "Pais_Des": "MACAO"
+ },
+ {
+  "Cod_Pais": "MK",
+  "Pais_Des": "MACEDONIA"
+ },
+ {
+  "Cod_Pais": "MG",
+  "Pais_Des": "MADAGASCAR"
+ },
+ {
+  "Cod_Pais": "MY",
+  "Pais_Des": "MALASIA"
+ },
+ {
+  "Cod_Pais": "MW",
+  "Pais_Des": "MALAWI"
+ },
+ {
+  "Cod_Pais": "MV",
+  "Pais_Des": "MALDIVAS"
+ },
+ {
+  "Cod_Pais": "ML",
+  "Pais_Des": "MALI"
+ },
+ {
+  "Cod_Pais": "MT",
+  "Pais_Des": "MALTA"
+ },
+ {
+  "Cod_Pais": "MA",
+  "Pais_Des": "MARRUECOS"
+ },
+ {
+  "Cod_Pais": "MQ",
+  "Pais_Des": "MARTINICA"
+ },
+ {
+  "Cod_Pais": "MU",
+  "Pais_Des": "MAURICIO"
+ },
+ {
+  "Cod_Pais": "MR",
+  "Pais_Des": "MAURITANIA"
+ },
+ {
+  "Cod_Pais": "MX",
+  "Pais_Des": "MÉXICO"
+ },
+ {
+  "Cod_Pais": "FM",
+  "Pais_Des": "MICRONESIA"
+ },
+ {
+  "Cod_Pais": "MD",
+  "Pais_Des": "MOLDOVA"
+ },
+ {
+  "Cod_Pais": "MC",
+  "Pais_Des": "MÓNACO"
+ },
+ {
+  "Cod_Pais": "MN",
+  "Pais_Des": "MONGOLIA"
+ },
+ {
+  "Cod_Pais": "ME",
+  "Pais_Des": "MONTENEGRO"
+ },
+ {
+  "Cod_Pais": "MS",
+  "Pais_Des": "MONTSERRAT"
+ },
+ {
+  "Cod_Pais": "MZ",
+  "Pais_Des": "MOZAMBIQUE"
+ },
+ {
+  "Cod_Pais": "MM",
+  "Pais_Des": "MYANMAR"
+ },
+ {
+  "Cod_Pais": "NA",
+  "Pais_Des": "NAMIBIA"
+ },
+ {
+  "Cod_Pais": "NR",
+  "Pais_Des": "NAURU"
+ },
+ {
+  "Cod_Pais": "NP",
+  "Pais_Des": "NEPAL"
+ },
+ {
+  "Cod_Pais": "NI",
+  "Pais_Des": "NICARAGUA"
+ },
+ {
+  "Cod_Pais": "NE",
+  "Pais_Des": "NÍGER"
+ },
+ {
+  "Cod_Pais": "NG",
+  "Pais_Des": "NIGERIA"
+ },
+ {
+  "Cod_Pais": "NU",
+  "Pais_Des": "NIUE"
+ },
+ {
+  "Cod_Pais": "NO",
+  "Pais_Des": "NORUEGA"
+ },
+ {
+  "Cod_Pais": "NC",
+  "Pais_Des": "NUEVA CALEDONIA"
+ },
+ {
+  "Cod_Pais": "NZ",
+  "Pais_Des": "NUEVA ZELANDA"
+ },
+ {
+  "Cod_Pais": "OM",
+  "Pais_Des": "OMÁN"
+ },
+ {
+  "Cod_Pais": "NL",
+  "Pais_Des": "PAÍSES BAJOS"
+ },
+ {
+  "Cod_Pais": "PK",
+  "Pais_Des": "PAKISTÁN"
+ },
+ {
+  "Cod_Pais": "PS",
+  "Pais_Des": "PALESTINA"
+ },
+ {
+  "Cod_Pais": "PA",
+  "Pais_Des": "PANAMÁ"
+ },
+ {
+  "Cod_Pais": "PG",
+  "Pais_Des": "PAPÚA NUEVA GUINEA"
+ },
+ {
+  "Cod_Pais": "PY",
+  "Pais_Des": "PARAGUAY"
+ },
+ {
+  "Cod_Pais": "PE",
+  "Pais_Des": "PERÚ"
+ },
+ {
+  "Cod_Pais": "PF",
+  "Pais_Des": "POLINESIA FRANCESA"
+ },
+ {
+  "Cod_Pais": "PL",
+  "Pais_Des": "POLONIA"
+ },
+ {
+  "Cod_Pais": "PT",
+  "Pais_Des": "PORTUGAL"
+ },
+ {
+  "Cod_Pais": "PR",
+  "Pais_Des": "PUERTO RICO"
+ },
+ {
+  "Cod_Pais": "QA",
+  "Pais_Des": "QATAR"
+ },
+ {
+  "Cod_Pais": "GB",
+  "Pais_Des": "REINO UNIDO"
+ },
+ {
+  "Cod_Pais": "CF",
+  "Pais_Des": "REPÚBLICA CENTRO-AFRICANA"
+ },
+ {
+  "Cod_Pais": "CZ",
+  "Pais_Des": "REPÚBLICA CHECA"
+ },
+ {
+  "Cod_Pais": "DO",
+  "Pais_Des": "REPÚBLICA DOMINICANA"
+ },
+ {
+  "Cod_Pais": "RE",
+  "Pais_Des": "REUNIÓN"
+ },
+ {
+  "Cod_Pais": "RW",
+  "Pais_Des": "RUANDA"
+ },
+ {
+  "Cod_Pais": "RO",
+  "Pais_Des": "RUMANÍA"
+ },
+ {
+  "Cod_Pais": "RU",
+  "Pais_Des": "RUSIA"
+ },
+ {
+  "Cod_Pais": "EH",
+  "Pais_Des": "SAHARA OCCIDENTAL"
+ },
+ {
+  "Cod_Pais": "WS",
+  "Pais_Des": "SAMOA"
+ },
+ {
+  "Cod_Pais": "AS",
+  "Pais_Des": "SAMOA AMERICANA"
+ },
+ {
+  "Cod_Pais": "BL",
+  "Pais_Des": "SAN BARTOLOMÉ"
+ },
+ {
+  "Cod_Pais": "KN",
+  "Pais_Des": "SAN CRISTÓBAL Y NIEVES"
+ },
+ {
+  "Cod_Pais": "SM",
+  "Pais_Des": "SAN MARINO"
+ },
+ {
+  "Cod_Pais": "PM",
+  "Pais_Des": "SAN PEDRO Y MIQUELÓN"
+ },
+ {
+  "Cod_Pais": "VC",
+  "Pais_Des": "SAN VICENTE Y LAS GRANADINAS"
+ },
+ {
+  "Cod_Pais": "SH",
+  "Pais_Des": "SANTA ELENA"
+ },
+ {
+  "Cod_Pais": "LC",
+  "Pais_Des": "SANTA LUCÍA"
+ },
+ {
+  "Cod_Pais": "ST",
+  "Pais_Des": "SANTO TOMÉ Y PRÍNCIPE"
+ },
+ {
+  "Cod_Pais": "SN",
+  "Pais_Des": "SENEGAL"
+ },
+ {
+  "Cod_Pais": "RS",
+  "Pais_Des": "SERBIA Y MONTENEGRO"
+ },
+ {
+  "Cod_Pais": "SC",
+  "Pais_Des": "SEYCHELLES"
+ },
+ {
+  "Cod_Pais": "SL",
+  "Pais_Des": "SIERRA LEONA"
+ },
+ {
+  "Cod_Pais": "SG",
+  "Pais_Des": "SINGAPUR"
+ },
+ {
+  "Cod_Pais": "SY",
+  "Pais_Des": "SIRIA"
+ },
+ {
+  "Cod_Pais": "SO",
+  "Pais_Des": "SOMALIA"
+ },
+ {
+  "Cod_Pais": "LK",
+  "Pais_Des": "SRI LANKA"
+ },
+ {
+  "Cod_Pais": "SZ",
+  "Pais_Des": "SUAZILANDIA"
+ },
+ {
+  "Cod_Pais": "SD",
+  "Pais_Des": "SUDÁN"
+ },
+ {
+  "Cod_Pais": "SE",
+  "Pais_Des": "SUECIA"
+ },
+ {
+  "Cod_Pais": "CH",
+  "Pais_Des": "SUIZA"
+ },
+ {
+  "Cod_Pais": "SR",
+  "Pais_Des": "SURINAM"
+ },
+ {
+  "Cod_Pais": "TH",
+  "Pais_Des": "TAILANDIA"
+ },
+ {
+  "Cod_Pais": "TW",
+  "Pais_Des": "TAIWÁN"
+ },
+ {
+  "Cod_Pais": "TH",
+  "Pais_Des": "TANZANIA"
+ },
+ {
+  "Cod_Pais": "TJ",
+  "Pais_Des": "TAYIKISTÁN"
+ },
+ {
+  "Cod_Pais": "TF",
+  "Pais_Des": "TERRITORIOS AUSTRALES FRANCESES"
+ },
+ {
+  "Cod_Pais": "TL",
+  "Pais_Des": "TIMOR-LESTE"
+ },
+ {
+  "Cod_Pais": "TG",
+  "Pais_Des": "TOGO"
+ },
+ {
+  "Cod_Pais": "TK",
+  "Pais_Des": "TOKELAU"
+ },
+ {
+  "Cod_Pais": "TO",
+  "Pais_Des": "TONGA"
+ },
+ {
+  "Cod_Pais": "TT",
+  "Pais_Des": "TRINIDAD Y TOBAGO"
+ },
+ {
+  "Cod_Pais": "TN",
+  "Pais_Des": "TÚNEZ"
+ },
+ {
+  "Cod_Pais": "TM",
+  "Pais_Des": "TURKMENISTÁN"
+ },
+ {
+  "Cod_Pais": "TR",
+  "Pais_Des": "TURQUÍA"
+ },
+ {
+  "Cod_Pais": "TV",
+  "Pais_Des": "TUVALU"
+ },
+ {
+  "Cod_Pais": "UA",
+  "Pais_Des": "UCRANIA"
+ },
+ {
+  "Cod_Pais": "UG",
+  "Pais_Des": "UGANDA"
+ },
+ {
+  "Cod_Pais": "UY",
+  "Pais_Des": "URUGUAY"
+ },
+ {
+  "Cod_Pais": "UZ",
+  "Pais_Des": "UZBEKISTÁN"
+ },
+ {
+  "Cod_Pais": "VU",
+  "Pais_Des": "VANUATU"
+ },
+ {
+  "Cod_Pais": "VE",
+  "Pais_Des": "VENEZUELA"
+ },
+ {
+  "Cod_Pais": "VN",
+  "Pais_Des": "VIETNAM"
+ },
+ {
+  "Cod_Pais": "WF",
+  "Pais_Des": "WALLIS Y FUTUNA"
+ },
+ {
+  "Cod_Pais": "YE",
+  "Pais_Des": "YEMEN"
+ },
+ {
+  "Cod_Pais": "DJ",
+  "Pais_Des": "YIBUTI"
+ }
+]

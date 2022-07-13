@@ -87,6 +87,8 @@ class VerifyCsrfToken extends Middleware
         'http://127.0.0.1:8000/updMotivo',
         'http://127.0.0.1:8000/delMotivo',
         'http://127.0.0.1:8000/rechaExtru',
+        'http://127.0.0.1:8000/insRolMod',
+        'http://127.0.0.1:8000/confExtruO',
 
     ];
 }

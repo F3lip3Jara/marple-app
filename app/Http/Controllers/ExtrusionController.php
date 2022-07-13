@@ -230,9 +230,7 @@ class ExtrusionController extends Controller
                 $data = $request->all();
                if($rol == 1 || $rol == 2){
                     $affected = Extrusion::where('idExt' , $data['id'])->update([
-                        'extEstCtl' => 'A',
-                        'extKilApr' => $data['extKilApr'],
-                        'extKilR'   => $data['extKilR'],
+                        'extEstCtl' => 'A',                        
                         'extObs'    => $data['extObs']
                     ]);
                     if($affected > 0){
@@ -256,6 +254,50 @@ class ExtrusionController extends Controller
             }
          }
     }
+
+    function confExtruO(Request $request){
+        $id     = 0;
+        $header = $request->header('access-token');
+        $val    = User::select('token' , 'id', 'activado', 'idRol')->where('token' , $header)->get();
+        $rol    = 0;
+
+        if($header == ''){
+            return response()->json('error' , 203);
+        }else{
+            foreach($val as $item){
+                $id   = $item->id;
+                $rol  = $item->idRol;
+            }
+          if($id > 0 ){
+                $data = $request->all();
+               if($rol == 1 || $rol == 2 ){
+                    $affected = Extrusion::where('idExt' , $data['id'])->update([
+                        'extKilApr' => $data['extKilApr'],
+                        'extKilR'   => $data['extKilR'],
+                        'extObs'    => $data['extObs']
+                    ]);
+                    if($affected > 0){
+                        $resources = array(
+                            array("error" => "0", 'mensaje' => "Extrusión actualizada de manera correcta",
+                            'type'=> 'success')
+                            );
+                        return response()->json($resources, 200);
+                    }else{
+                        return response()->json('error', 204);
+                    }
+                }else{
+                    $resources = array(
+                        array("error" => "1", 'mensaje' => "No posee privilegio",
+                        'type'=> 'danger')
+                        );
+                    return response()->json($resources , 200);
+                }
+            }else{
+                return response()->json('error' , 204);
+            }
+         }
+    }
+
 
     public function filLotSal(Request $request)
     {
@@ -532,9 +574,7 @@ class ExtrusionController extends Controller
 
                     $affected = Extrusion::where('idExt' , $request->id)->update(['extEstCtl' => 'R',
                                                                                   'extObs'    => $data['extObs'],
-                                                                                  'extIdMot'  => $data['idMot'],
-                                                                                  'extKilR'   => $data['extKilR'],
-                                                                                  'extKilApr' => $data['extKilApr']
+                                                                                  'extIdMot'  => $data['idMot']                                                                                 
                                                                                 ]);
                     if($affected > 0){
                         $resources = array(

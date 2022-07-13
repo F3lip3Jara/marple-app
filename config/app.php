@@ -67,8 +67,9 @@ return [
     |
     */
 
-    'timezone' => 'America/Santiago',
-
+    
+    'timezone' =>'Chile/Continental',
+  
     /*
     |--------------------------------------------------------------------------
     | Application Locale Configuration

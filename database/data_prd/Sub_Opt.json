@@ -1,0 +1,83 @@
+[
+  {
+    "idOptSub": "1",
+    "empId": "1",
+    "idOpt": "14",
+    "optSDes": "País",
+    "optSLink": "pais",
+    "created_at": "2022-07-10 23:20:21",
+    "updated_at": "2022-07-10 23:20:21"
+  },
+  {
+    "idOptSub": "2",
+    "empId": "1",
+    "idOpt": "14",
+    "optSDes": "Región",
+    "optSLink": "regiones",
+    "created_at": "2022-07-10 23:20:21",
+    "updated_at": "2022-07-10 23:20:21"
+  },
+  {
+    "idOptSub": "3",
+    "empId": "1",
+    "idOpt": "14",
+    "optSDes": "Ciudad",
+    "optSLink": "ciudad",
+    "created_at": "2022-07-10 23:20:21",
+    "updated_at": "2022-07-10 23:20:21"
+  },
+  {
+    "idOptSub": "4",
+    "empId": "1",
+    "idOpt": "14",
+    "optSDes": "Comuna",
+    "optSLink": "comuna",
+    "created_at": "2022-07-10 23:20:21",
+    "updated_at": "2022-07-10 23:20:21"
+  },
+  {
+    "idOptSub": "5",
+    "empId": "1",
+    "idOpt": "18",
+    "optSDes": "Color",
+    "optSLink": "color",
+    "created_at": "2022-07-10 23:20:22",
+    "updated_at": "2022-07-10 23:20:22"
+  },
+  {
+    "idOptSub": "6",
+    "empId": "1",
+    "idOpt": "18",
+    "optSDes": "Grupo",
+    "optSLink": "grupo",
+    "created_at": "2022-07-10 23:20:22",
+    "updated_at": "2022-07-10 23:20:22"
+  },
+  {
+    "idOptSub": "7",
+    "empId": "1",
+    "idOpt": "18",
+    "optSDes": "Sub Grupo",
+    "optSLink": "subgrupo",
+    "created_at": "2022-07-10 23:20:22",
+    "updated_at": "2022-07-10 23:20:22"
+  },
+  {
+    "idOptSub": "8",
+    "empId": "1",
+    "idOpt": "18",
+    "optSDes": "Productos",
+    "optSLink": "productos",
+    "created_at": "2022-07-10 23:20:22",
+    "updated_at": "2022-07-10 23:20:22"
+  },
+  {
+    "idOptSub": "9",
+    "empId": "1",
+    "idOpt": "18",
+    "optSDes": "Unidad Medida",
+    "optSLink": "unidad",
+    "created_at": "2022-07-10 23:20:22",
+    "updated_at": "2022-07-10 23:20:22"
+  }
+]

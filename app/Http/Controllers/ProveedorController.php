@@ -69,7 +69,7 @@ class ProveedorController extends Controller
 
                 if($affected > 0){
                     $resources = array(
-                        array("error" => "0", 'mensaje' => "Proveedor actualizada manera correcta",
+                        array("error" => "0", 'mensaje' => "Proveedor actualizado  manera correcta",
                         'type'=> 'success')
                         );
                     return response()->json($resources, 200);

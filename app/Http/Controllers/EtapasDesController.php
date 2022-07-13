@@ -26,8 +26,8 @@ class EtapasDesController extends Controller
             $data = $request->all();
 
             return EtapaDes::select('*')
-            ->join('etapasuser', 'etapasuserdes.idEta', '=', 'etapasuser.idEta')
-            ->where('etapasuserdes.idEta', $data['idEta'])
+            ->join('etapasUser', 'etapasUserDes.idEta', '=', 'etapasUser.idEta')
+            ->where('etapasUserDes.idEta', $data['idEta'])
             ->get();
         }else {
             return response()->json('error' , 203);

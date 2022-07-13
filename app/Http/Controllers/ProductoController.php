@@ -162,13 +162,18 @@ class ProductoController extends Controller
             if($id > 0 ){
                     $data   = request()-> all();
                     $prdCod = $data['prdCod'];
+
+
                     $val    = Producto::select('prdCod')->where('prdCod' , $prdCod)->get();
                     $count  = 0;
+                    
                     foreach($val as $item){
                         $count = $count + 1;
                     }
 
                     return response()->json($count , 200);
+
+                   
 
             }else{
                 return response()->json('error' , 203);

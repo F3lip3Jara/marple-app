@@ -38,6 +38,14 @@ Route::get('/', function () {
     Route::get('getUsuarios'    , 'App\Http\Controllers\UserController@getUsuarios');
     Route::post('upUsuario2'    , 'App\Http\Controllers\UserController@upUsuario2');
 
+    //Menu
+    Route::get('usuarioMenu'    , 'App\Http\Controllers\MenuController@index');
+    Route::get('trabModule'     , 'App\Http\Controllers\MenuController@indexMod');
+    Route::get('trabOpciones'   , 'App\Http\Controllers\MenuOptController@index');
+    Route::get('trabSubOpcion'  , 'App\Http\Controllers\MenuOptController@indexSOpt');
+    Route::get('trabRolesMod'   , 'App\Http\Controllers\RolesModuloController@index');
+    Route::post('insRolMod'      , 'App\Http\Controllers\RolesModuloController@ins');
+    
     //Route::get('getUser'      , 'App\Http\Controllers\UserController@setUserSession');
     Route::get('Imprimir'       , 'App\Http\Controllers\Etiquetas@imprimir');
 
@@ -225,6 +233,7 @@ Route::get('/', function () {
     Route::post('insConfirmaO'   , 'App\Http\Controllers\ExtrusionController@insConfirmaO');
     Route::post('insConfirmaC'   , 'App\Http\Controllers\ExtrusionController@insConfirmaC');
     Route::post('confExtru'     ,  'App\Http\Controllers\ExtrusionController@confExtru');
+    Route::post('confExtruO'     ,  'App\Http\Controllers\ExtrusionController@confExtruO');
     Route::get('filLotSalExt'   , 'App\Http\Controllers\ExtrusionController@filLotSal');
     Route::get('extDet'         , 'App\Http\Controllers\ExtrusionController@extDet');
     Route::get('indexFil'         , 'App\Http\Controllers\ExtrusionController@indexFil');
